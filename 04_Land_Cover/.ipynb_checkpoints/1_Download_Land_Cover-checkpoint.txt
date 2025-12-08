@@ -1,0 +1,31 @@
+var roi = ee.FeatureCollection("projects/noheat/assets/Atlanta_boundary_buffered");
+
+// var roi = ee.FeatureCollection(geometry).filterBounds(geometry); // Ensure roi is a FeatureCollection
+
+Map.centerObject(roi)
+
+Map.addLayer(roi)
+
+// start date and end date for land cover image
+var startDate = '2024-01-01';
+var endDate = '2025-01-01';
+
+var dw = ee.ImageCollection('GOOGLE/DYNAMICWORLD/V1')
+             .filterDate(startDate, endDate)
+             .filterBounds(roi);
+
+// Create a reducer that will compute the mode of the inputs. 
+var classification = dw.select('label');
+var dwComposite = classification.reduce(ee.Reducer.mode());
+
+var dwVisParams = {
+  min: 0,
+  max: 8,
+  palette: [
+    '#419BDF', '#397D49', '#88B053', '#7A87C6', '#E49635', '#DFC35A',
+    '#C4281B', '#A59B8F', '#B39FE1'
+  ]
+};
+
+// Clip the composite and add it to the Map.
+Map.addLayer(dwComposite.clip(roi), dwVisParams, 'Classified Composite');
