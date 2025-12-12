@@ -1,4 +1,4 @@
-name: /storage/home/hcoda1/4/hyu483/conda_envs/qgis332
+name: qgis_332
 channels:
   - conda-forge
   - https://repo.anaconda.com/pkgs/main
