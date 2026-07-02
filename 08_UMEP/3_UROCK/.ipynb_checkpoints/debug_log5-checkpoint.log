@@ -1,0 +1,109 @@
+/storage/home/hcoda1/4/hyu483/conda_envs/qgis332/lib/python3.11/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+
+Step 1: Calculating tile extents...
+Full template raster extent: (233582.59099838723, 901732.4833440109, 234642.58635222574, 902792.4786978494)
+Calculated 9 tiles for processing.
+[Master] Monitoring 9 tasks...
+[Master] 3857075: exit signal
+[Master] 3857093: exit signal
+[Master] 3857086: exit signal
+[Master] 3857102: exit signal
+[Master] 3857100: exit signal
+[Master] 3857089: exit signal
+[Master] 3857077: exit signal
+[Master] 3857078: exit signal
+[Master] 3857099: exit signal
+[Master] 3857088: exit signal
+[Master] 3857092: exit signal
+[Master] 3857103: exit signal
+[Master] 3857096: exit signal
+[Master] 3857097: exit signal
+[Master] 3857094: exit signal
+[Master] 3857084: exit signal
+[Master] 3857076: exit signal
+[Master] 3857098: exit signal
+[Master] 3857090: exit signal
+[Master] 3857091: exit signal
+[Master] 3857079: exit signal
+(5, (233982.59099838723, 902532.4833440109, 234382.59099838723, 902792.4786978494), (233972.59099838723, 902522.4833440109, 234392.59099838723, 902792.4786978494), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_5_sliced_inputs/buildings_tile_5.shp'. Copied 32 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_5_sliced_inputs/veg_tile_5.shp'. Copied 46 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_5_sliced_inputs/template_tile_5.tif' (Extent: (233972.59099838723, 902522.4833440109, 234392.59099838723, 902792.4786978494)).
+Tile 5: Running URock...
+Process 3857080: Running URock for tile output 'wind_field_raw_tile_5'...
+(8, (234382.59099838723, 902532.4833440109, 234642.58635222574, 902792.4786978494), (234372.59099838723, 902522.4833440109, 234642.58635222574, 902792.4786978494), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_8_sliced_inputs/buildings_tile_8.shp'. Copied 52 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_8_sliced_inputs/veg_tile_8.shp'. Copied 37 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_8_sliced_inputs/template_tile_8.tif' (Extent: (234372.59099838723, 902522.4833440109, 234642.58635222574, 902792.4786978494)).
+Tile 8: Running URock...
+Process 3857085: Running URock for tile output 'wind_field_raw_tile_8'...
+(0, (233582.59099838723, 901732.4833440109, 233982.59099838723, 902132.4833440109), (233582.59099838723, 901732.4833440109, 233992.59099838723, 902142.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_0_sliced_inputs/buildings_tile_0.shp'. Copied 105 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_0_sliced_inputs/veg_tile_0.shp'. Copied 84 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_0_sliced_inputs/template_tile_0.tif' (Extent: (233582.59099838723, 901732.4833440109, 233992.59099838723, 902142.4833440109)).
+Tile 0: Running URock...
+Process 3857101: Running URock for tile output 'wind_field_raw_tile_0'...
+(2, (233582.59099838723, 902532.4833440109, 233982.59099838723, 902792.4786978494), (233582.59099838723, 902522.4833440109, 233992.59099838723, 902792.4786978494), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_2_sliced_inputs/buildings_tile_2.shp'. Copied 192 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_2_sliced_inputs/veg_tile_2.shp'. Copied 84 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_2_sliced_inputs/template_tile_2.tif' (Extent: (233582.59099838723, 902522.4833440109, 233992.59099838723, 902792.4786978494)).
+Tile 2: Running URock...
+Process 3857104: Running URock for tile output 'wind_field_raw_tile_2'...
+(6, (234382.59099838723, 901732.4833440109, 234642.58635222574, 902132.4833440109), (234372.59099838723, 901732.4833440109, 234642.58635222574, 902142.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_6_sliced_inputs/buildings_tile_6.shp'. Copied 142 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_6_sliced_inputs/veg_tile_6.shp'. Copied 106 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_6_sliced_inputs/template_tile_6.tif' (Extent: (234372.59099838723, 901732.4833440109, 234642.58635222574, 902142.4833440109)).
+Tile 6: Running URock...
+Process 3857095: Running URock for tile output 'wind_field_raw_tile_6'...
+(3, (233982.59099838723, 901732.4833440109, 234382.59099838723, 902132.4833440109), (233972.59099838723, 901732.4833440109, 234392.59099838723, 902142.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_3_sliced_inputs/buildings_tile_3.shp'. Copied 147 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_3_sliced_inputs/veg_tile_3.shp'. Copied 101 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_3_sliced_inputs/template_tile_3.tif' (Extent: (233972.59099838723, 901732.4833440109, 234392.59099838723, 902142.4833440109)).
+Tile 3: Running URock...
+Process 3857082: Running URock for tile output 'wind_field_raw_tile_3'...
+(7, (234382.59099838723, 902132.4833440109, 234642.58635222574, 902532.4833440109), (234372.59099838723, 902122.4833440109, 234642.58635222574, 902542.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_7_sliced_inputs/buildings_tile_7.shp'. Copied 198 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_7_sliced_inputs/veg_tile_7.shp'. Copied 123 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_7_sliced_inputs/template_tile_7.tif' (Extent: (234372.59099838723, 902122.4833440109, 234642.58635222574, 902542.4833440109)).
+Tile 7: Running URock...
+Process 3857087: Running URock for tile output 'wind_field_raw_tile_7'...
+(4, (233982.59099838723, 902132.4833440109, 234382.59099838723, 902532.4833440109), (233972.59099838723, 902122.4833440109, 234392.59099838723, 902542.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_4_sliced_inputs/buildings_tile_4.shp'. Copied 414 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_4_sliced_inputs/veg_tile_4.shp'. Copied 215 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_4_sliced_inputs/template_tile_4.tif' (Extent: (233972.59099838723, 902122.4833440109, 234392.59099838723, 902542.4833440109)).
+Tile 4: Running URock...
+Process 3857081: Running URock for tile output 'wind_field_raw_tile_4'...
+(1, (233582.59099838723, 902132.4833440109, 233982.59099838723, 902532.4833440109), (233582.59099838723, 902122.4833440109, 233992.59099838723, 902542.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_1_sliced_inputs/buildings_tile_1.shp'. Copied 196 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_1_sliced_inputs/veg_tile_1.shp'. Copied 133 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_1_sliced_inputs/template_tile_1.tif' (Extent: (233582.59099838723, 902122.4833440109, 233992.59099838723, 902542.4833440109)).
+Tile 1: Running URock...
+Process 3857083: Running URock for tile output 'wind_field_raw_tile_1'...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.

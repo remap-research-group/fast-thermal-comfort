@@ -1,0 +1,4666 @@
+/storage/home/hcoda1/4/hyu483/conda_envs/qgis332/lib/python3.11/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+
+Step 1: Calculating tile extents...
+Full template raster extent: (233582.59099838723, 901732.4833440109, 234642.58635222574, 902792.4786978494)
+Calculated 9 tiles for processing.
+[Master] Monitoring 9 tasks...
+[Master] 3857075: exit signal
+[Master] 3857093: exit signal
+[Master] 3857086: exit signal
+[Master] 3857102: exit signal
+[Master] 3857100: exit signal
+[Master] 3857089: exit signal
+[Master] 3857077: exit signal
+[Master] 3857078: exit signal
+[Master] 3857099: exit signal
+[Master] 3857088: exit signal
+[Master] 3857092: exit signal
+[Master] 3857103: exit signal
+[Master] 3857096: exit signal
+[Master] 3857097: exit signal
+[Master] 3857094: exit signal
+[Master] 3857084: exit signal
+[Master] 3857076: exit signal
+[Master] 3857098: exit signal
+[Master] 3857090: exit signal
+[Master] 3857091: exit signal
+[Master] 3857079: exit signal
+(5, (233982.59099838723, 902532.4833440109, 234382.59099838723, 902792.4786978494), (233972.59099838723, 902522.4833440109, 234392.59099838723, 902792.4786978494), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_5_sliced_inputs/buildings_tile_5.shp'. Copied 32 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_5_sliced_inputs/veg_tile_5.shp'. Copied 46 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_5_sliced_inputs/template_tile_5.tif' (Extent: (233972.59099838723, 902522.4833440109, 234392.59099838723, 902792.4786978494)).
+Tile 5: Running URock...
+Process 3857080: Running URock for tile output 'wind_field_raw_tile_5'...
+(8, (234382.59099838723, 902532.4833440109, 234642.58635222574, 902792.4786978494), (234372.59099838723, 902522.4833440109, 234642.58635222574, 902792.4786978494), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_8_sliced_inputs/buildings_tile_8.shp'. Copied 52 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_8_sliced_inputs/veg_tile_8.shp'. Copied 37 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_8_sliced_inputs/template_tile_8.tif' (Extent: (234372.59099838723, 902522.4833440109, 234642.58635222574, 902792.4786978494)).
+Tile 8: Running URock...
+Process 3857085: Running URock for tile output 'wind_field_raw_tile_8'...
+(0, (233582.59099838723, 901732.4833440109, 233982.59099838723, 902132.4833440109), (233582.59099838723, 901732.4833440109, 233992.59099838723, 902142.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_0_sliced_inputs/buildings_tile_0.shp'. Copied 105 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_0_sliced_inputs/veg_tile_0.shp'. Copied 84 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_0_sliced_inputs/template_tile_0.tif' (Extent: (233582.59099838723, 901732.4833440109, 233992.59099838723, 902142.4833440109)).
+Tile 0: Running URock...
+Process 3857101: Running URock for tile output 'wind_field_raw_tile_0'...
+(2, (233582.59099838723, 902532.4833440109, 233982.59099838723, 902792.4786978494), (233582.59099838723, 902522.4833440109, 233992.59099838723, 902792.4786978494), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_2_sliced_inputs/buildings_tile_2.shp'. Copied 192 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_2_sliced_inputs/veg_tile_2.shp'. Copied 84 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_2_sliced_inputs/template_tile_2.tif' (Extent: (233582.59099838723, 902522.4833440109, 233992.59099838723, 902792.4786978494)).
+Tile 2: Running URock...
+Process 3857104: Running URock for tile output 'wind_field_raw_tile_2'...
+(6, (234382.59099838723, 901732.4833440109, 234642.58635222574, 902132.4833440109), (234372.59099838723, 901732.4833440109, 234642.58635222574, 902142.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_6_sliced_inputs/buildings_tile_6.shp'. Copied 142 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_6_sliced_inputs/veg_tile_6.shp'. Copied 106 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_6_sliced_inputs/template_tile_6.tif' (Extent: (234372.59099838723, 901732.4833440109, 234642.58635222574, 902142.4833440109)).
+Tile 6: Running URock...
+Process 3857095: Running URock for tile output 'wind_field_raw_tile_6'...
+(3, (233982.59099838723, 901732.4833440109, 234382.59099838723, 902132.4833440109), (233972.59099838723, 901732.4833440109, 234392.59099838723, 902142.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_3_sliced_inputs/buildings_tile_3.shp'. Copied 147 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_3_sliced_inputs/veg_tile_3.shp'. Copied 101 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_3_sliced_inputs/template_tile_3.tif' (Extent: (233972.59099838723, 901732.4833440109, 234392.59099838723, 902142.4833440109)).
+Tile 3: Running URock...
+Process 3857082: Running URock for tile output 'wind_field_raw_tile_3'...
+(7, (234382.59099838723, 902132.4833440109, 234642.58635222574, 902532.4833440109), (234372.59099838723, 902122.4833440109, 234642.58635222574, 902542.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_7_sliced_inputs/buildings_tile_7.shp'. Copied 198 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_7_sliced_inputs/veg_tile_7.shp'. Copied 123 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_7_sliced_inputs/template_tile_7.tif' (Extent: (234372.59099838723, 902122.4833440109, 234642.58635222574, 902542.4833440109)).
+Tile 7: Running URock...
+Process 3857087: Running URock for tile output 'wind_field_raw_tile_7'...
+(4, (233982.59099838723, 902132.4833440109, 234382.59099838723, 902532.4833440109), (233972.59099838723, 902122.4833440109, 234392.59099838723, 902542.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_4_sliced_inputs/buildings_tile_4.shp'. Copied 414 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_4_sliced_inputs/veg_tile_4.shp'. Copied 215 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_4_sliced_inputs/template_tile_4.tif' (Extent: (233972.59099838723, 902122.4833440109, 234392.59099838723, 902542.4833440109)).
+Tile 4: Running URock...
+Process 3857081: Running URock for tile output 'wind_field_raw_tile_4'...
+(1, (233582.59099838723, 902132.4833440109, 233982.59099838723, 902532.4833440109), (233582.59099838723, 902122.4833440109, 233992.59099838723, 902542.4833440109), {'buildings': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp', 'veg': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp', 'template_rast': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif', 'base_output_dir': '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output'})
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/building_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_1_sliced_inputs/buildings_tile_1.shp'. Copied 196 features.
+Info: Sliced and clipped '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/veg_26986.shp' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_1_sliced_inputs/veg_tile_1.shp'. Copied 133 features.
+Info: Sliced '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK/input/../DSM_26986_2.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_1_sliced_inputs/template_tile_1.tif' (Extent: (233582.59099838723, 902122.4833440109, 233992.59099838723, 902542.4833440109)).
+Tile 1: Running URock...
+Process 3857083: Running URock for tile output 'wind_field_raw_tile_1'...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Connecting to database
+	->/tmp/URock_2025-12-21T164743c74b4067-a7e2-4389-b7c7-61aba43f0903/myDbH2
+/storage/home/hcoda1/4/hyu483/qgis_332/profiles/default/python/plugins/processing_umep/functions/URock/h2gis-standalone/h2gis-dist-2.2.3.jar
+Connected!
+
+Spatial functions added!
+
+Load input data
+Load table 'build_pre_srid_20251221164749'
+Load table 'veg_pre_srid_20251221164749'
+Creates blocks and stacked blocks
+Rotates geometries from 45.0 degrees
+Identify block base height and block cavity base
+Calculates obstacle properties
+Calculates zone properties
+Initializes upwind facades
+Update upwind facades base height
+Initializes downwind facades
+Calculates study area properties
+Roughness zone properties are:
+
+                                 - z0: 1.422549437722802
+                                 - d: 6.427291900071927
+                                 - Hr: 11.173840059227881
+                                 - H_ob_max: 26
+                                 - lambda_f: 0.12731070340925402
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates displacement zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates cavity and wake zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates street canyon zones
+Rotates geometries from -45.0 degrees
+Creates rooftop zones (perpendicular and corner)
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates built-up and open vegetation zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Identify the buildings concerned by the impacted zone chosen by the user
+Creates the grid of points
+Affects each grid point to a building Rockle zone and calculates needed 
+          variables for 3D wind speed
+Affects each grid point to a vegetation Rockle zone and calculates 
+          needed variables for 3D wind speed
+Remove some of the Röckle zone points
+Creates backward zones
+Calculates the 3D wind speed factor value for each point of each BUILDING zone
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Calculates the 3D wind speed factor value for each point of each VEGETATION zone
+Rotates geometries from -45.0 degrees
+Deals with superimposition (keeps only 1 value per 3D point)
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Rotates geometries from -45.0 degrees
+Identify grid points intersecting buildings
+Set the initial 3D wind speed field
+Time spent for wind speed initialization: 37.06155610084534 s
+Shape: (144, 132, 18) - Nb cells: 342144
+Start to apply the wind solver
+Iteration 1 (max 500)
+   eps = 0.577279 >= 0.0001
+Iteration 2 (max 500)
+   eps = 0.397167 >= 0.0001
+Iteration 3 (max 500)
+   eps = 0.315994 >= 0.0001
+Iteration 4 (max 500)
+   eps = 0.256573 >= 0.0001
+Iteration 5 (max 500)
+   eps = 0.21529 >= 0.0001
+Iteration 6 (max 500)
+   eps = 0.182771 >= 0.0001
+Iteration 7 (max 500)
+   eps = 0.155285 >= 0.0001
+Iteration 8 (max 500)
+   eps = 0.130552 >= 0.0001
+Iteration 9 (max 500)
+   eps = 0.110334 >= 0.0001
+Iteration 10 (max 500)
+   eps = 0.095303 >= 0.0001
+Iteration 11 (max 500)
+   eps = 0.084991 >= 0.0001
+Iteration 12 (max 500)
+   eps = 0.076631 >= 0.0001
+Iteration 13 (max 500)
+   eps = 0.070121 >= 0.0001
+Iteration 14 (max 500)
+   eps = 0.064705 >= 0.0001
+Iteration 15 (max 500)
+   eps = 0.060659 >= 0.0001
+Iteration 16 (max 500)
+   eps = 0.065263 >= 0.0001
+Iteration 17 (max 500)
+   eps = 0.056979 >= 0.0001
+Iteration 18 (max 500)
+   eps = 0.05277 >= 0.0001
+Iteration 19 (max 500)
+   eps = 0.050356 >= 0.0001
+Iteration 20 (max 500)
+   eps = 0.048422 >= 0.0001
+Iteration 21 (max 500)
+   eps = 0.047017 >= 0.0001
+Iteration 22 (max 500)
+   eps = 0.045693 >= 0.0001
+Iteration 23 (max 500)
+   eps = 0.044497 >= 0.0001
+Iteration 24 (max 500)
+   eps = 0.043378 >= 0.0001
+Iteration 25 (max 500)
+   eps = 0.042196 >= 0.0001
+Iteration 26 (max 500)
+   eps = 0.040843 >= 0.0001
+Iteration 27 (max 500)
+   eps = 0.039547 >= 0.0001
+Iteration 28 (max 500)
+   eps = 0.03838 >= 0.0001
+Iteration 29 (max 500)
+   eps = 0.037324 >= 0.0001
+Iteration 30 (max 500)
+   eps = 0.036125 >= 0.0001
+Iteration 31 (max 500)
+   eps = 0.034947 >= 0.0001
+Iteration 32 (max 500)
+   eps = 0.034065 >= 0.0001
+Iteration 33 (max 500)
+   eps = 0.032896 >= 0.0001
+Iteration 34 (max 500)
+   eps = 0.031934 >= 0.0001
+Iteration 35 (max 500)
+   eps = 0.030894 >= 0.0001
+Iteration 36 (max 500)
+   eps = 0.029951 >= 0.0001
+Iteration 37 (max 500)
+   eps = 0.02899 >= 0.0001
+Iteration 38 (max 500)
+   eps = 0.027936 >= 0.0001
+Iteration 39 (max 500)
+   eps = 0.02692 >= 0.0001
+Iteration 40 (max 500)
+   eps = 0.025961 >= 0.0001
+Iteration 41 (max 500)
+   eps = 0.024999 >= 0.0001
+Iteration 42 (max 500)
+   eps = 0.024048 >= 0.0001
+Iteration 43 (max 500)
+   eps = 0.023155 >= 0.0001
+Iteration 44 (max 500)
+   eps = 0.02235 >= 0.0001
+Iteration 45 (max 500)
+   eps = 0.0216 >= 0.0001
+Iteration 46 (max 500)
+   eps = 0.020866 >= 0.0001
+Iteration 47 (max 500)
+   eps = 0.020111 >= 0.0001
+Iteration 48 (max 500)
+   eps = 0.019385 >= 0.0001
+Iteration 49 (max 500)
+   eps = 0.018702 >= 0.0001
+Iteration 50 (max 500)
+   eps = 0.018069 >= 0.0001
+Iteration 51 (max 500)
+   eps = 0.017499 >= 0.0001
+Iteration 52 (max 500)
+   eps = 0.01699 >= 0.0001
+Iteration 53 (max 500)
+   eps = 0.016461 >= 0.0001
+Iteration 54 (max 500)
+   eps = 0.015945 >= 0.0001
+Iteration 55 (max 500)
+   eps = 0.015445 >= 0.0001
+Iteration 56 (max 500)
+   eps = 0.014968 >= 0.0001
+Iteration 57 (max 500)
+   eps = 0.014492 >= 0.0001
+Iteration 58 (max 500)
+   eps = 0.013981 >= 0.0001
+Iteration 59 (max 500)
+   eps = 0.013514 >= 0.0001
+Iteration 60 (max 500)
+   eps = 0.013017 >= 0.0001
+Iteration 61 (max 500)
+   eps = 0.012594 >= 0.0001
+Iteration 62 (max 500)
+   eps = 0.01221 >= 0.0001
+Iteration 63 (max 500)
+   eps = 0.011769 >= 0.0001
+Iteration 64 (max 500)
+   eps = 0.011366 >= 0.0001
+Iteration 65 (max 500)
+   eps = 0.010993 >= 0.0001
+Iteration 66 (max 500)
+   eps = 0.010641 >= 0.0001
+Iteration 67 (max 500)
+   eps = 0.010249 >= 0.0001
+Iteration 68 (max 500)
+   eps = 0.009924 >= 0.0001
+Iteration 69 (max 500)
+   eps = 0.009607 >= 0.0001
+Iteration 70 (max 500)
+   eps = 0.009368 >= 0.0001
+Iteration 71 (max 500)
+   eps = 0.009113 >= 0.0001
+Iteration 72 (max 500)
+   eps = 0.008864 >= 0.0001
+Iteration 73 (max 500)
+   eps = 0.008617 >= 0.0001
+Iteration 74 (max 500)
+   eps = 0.008383 >= 0.0001
+Iteration 75 (max 500)
+   eps = 0.00809 >= 0.0001
+Iteration 76 (max 500)
+   eps = 0.007827 >= 0.0001
+Iteration 77 (max 500)
+   eps = 0.007553 >= 0.0001
+Iteration 78 (max 500)
+   eps = 0.007297 >= 0.0001
+Iteration 79 (max 500)
+   eps = 0.007085 >= 0.0001
+Iteration 80 (max 500)
+   eps = 0.006885 >= 0.0001
+Iteration 81 (max 500)
+   eps = 0.006656 >= 0.0001
+Iteration 82 (max 500)
+   eps = 0.006444 >= 0.0001
+Iteration 83 (max 500)
+   eps = 0.006264 >= 0.0001
+Iteration 84 (max 500)
+   eps = 0.006061 >= 0.0001
+Iteration 85 (max 500)
+   eps = 0.005915 >= 0.0001
+Iteration 86 (max 500)
+   eps = 0.005727 >= 0.0001
+Iteration 87 (max 500)
+   eps = 0.005538 >= 0.0001
+Iteration 88 (max 500)
+   eps = 0.005382 >= 0.0001
+Iteration 89 (max 500)
+   eps = 0.005248 >= 0.0001
+Iteration 90 (max 500)
+   eps = 0.005114 >= 0.0001
+Iteration 91 (max 500)
+   eps = 0.005 >= 0.0001
+Iteration 92 (max 500)
+   eps = 0.004821 >= 0.0001
+Iteration 93 (max 500)
+   eps = 0.004651 >= 0.0001
+Iteration 94 (max 500)
+   eps = 0.004471 >= 0.0001
+Iteration 95 (max 500)
+   eps = 0.004322 >= 0.0001
+Iteration 96 (max 500)
+   eps = 0.004197 >= 0.0001
+Iteration 97 (max 500)
+   eps = 0.004065 >= 0.0001
+Iteration 98 (max 500)
+   eps = 0.003928 >= 0.0001
+Iteration 99 (max 500)
+   eps = 0.003837 >= 0.0001
+Iteration 100 (max 500)
+   eps = 0.003678 >= 0.0001
+Iteration 101 (max 500)
+   eps = 0.003567 >= 0.0001
+Iteration 102 (max 500)
+   eps = 0.003453 >= 0.0001
+Iteration 103 (max 500)
+   eps = 0.003345 >= 0.0001
+Iteration 104 (max 500)
+   eps = 0.003247 >= 0.0001
+Iteration 105 (max 500)
+   eps = 0.003149 >= 0.0001
+Iteration 106 (max 500)
+   eps = 0.003047 >= 0.0001
+Iteration 107 (max 500)
+   eps = 0.002947 >= 0.0001
+Iteration 108 (max 500)
+   eps = 0.002853 >= 0.0001
+Iteration 109 (max 500)
+   eps = 0.002767 >= 0.0001
+Iteration 110 (max 500)
+   eps = 0.002671 >= 0.0001
+Iteration 111 (max 500)
+   eps = 0.002577 >= 0.0001
+Iteration 112 (max 500)
+   eps = 0.002498 >= 0.0001
+Iteration 113 (max 500)
+   eps = 0.002421 >= 0.0001
+Iteration 114 (max 500)
+   eps = 0.002349 >= 0.0001
+Iteration 115 (max 500)
+   eps = 0.002277 >= 0.0001
+Iteration 116 (max 500)
+   eps = 0.00221 >= 0.0001
+Iteration 117 (max 500)
+   eps = 0.002136 >= 0.0001
+Iteration 118 (max 500)
+   eps = 0.002062 >= 0.0001
+Iteration 119 (max 500)
+   eps = 0.001998 >= 0.0001
+Iteration 120 (max 500)
+   eps = 0.001929 >= 0.0001
+Iteration 121 (max 500)
+   eps = 0.001862 >= 0.0001
+Iteration 122 (max 500)
+   eps = 0.0018 >= 0.0001
+Iteration 123 (max 500)
+   eps = 0.001741 >= 0.0001
+Iteration 124 (max 500)
+   eps = 0.001689 >= 0.0001
+Iteration 125 (max 500)
+   eps = 0.001639 >= 0.0001
+Iteration 126 (max 500)
+   eps = 0.001586 >= 0.0001
+Iteration 127 (max 500)
+   eps = 0.00153 >= 0.0001
+Iteration 128 (max 500)
+   eps = 0.001481 >= 0.0001
+Iteration 129 (max 500)
+   eps = 0.001434 >= 0.0001
+Iteration 130 (max 500)
+   eps = 0.001387 >= 0.0001
+Iteration 131 (max 500)
+   eps = 0.001343 >= 0.0001
+Iteration 132 (max 500)
+   eps = 0.001298 >= 0.0001
+Iteration 133 (max 500)
+   eps = 0.001256 >= 0.0001
+Iteration 134 (max 500)
+   eps = 0.001216 >= 0.0001
+Iteration 135 (max 500)
+   eps = 0.001175 >= 0.0001
+Iteration 136 (max 500)
+   eps = 0.001136 >= 0.0001
+Iteration 137 (max 500)
+   eps = 0.001096 >= 0.0001
+Iteration 138 (max 500)
+   eps = 0.001057 >= 0.0001
+Iteration 139 (max 500)
+   eps = 0.001023 >= 0.0001
+Iteration 140 (max 500)
+   eps = 0.000992 >= 0.0001
+Iteration 141 (max 500)
+   eps = 0.000963 >= 0.0001
+Iteration 142 (max 500)
+   eps = 0.000935 >= 0.0001
+Iteration 143 (max 500)
+   eps = 0.000905 >= 0.0001
+Iteration 144 (max 500)
+   eps = 0.000869 >= 0.0001
+Iteration 145 (max 500)
+   eps = 0.000835 >= 0.0001
+Iteration 146 (max 500)
+   eps = 0.000805 >= 0.0001
+Iteration 147 (max 500)
+   eps = 0.000778 >= 0.0001
+Iteration 148 (max 500)
+   eps = 0.000754 >= 0.0001
+Iteration 149 (max 500)
+   eps = 0.000728 >= 0.0001
+Iteration 150 (max 500)
+   eps = 0.000702 >= 0.0001
+Iteration 151 (max 500)
+   eps = 0.000678 >= 0.0001
+Iteration 152 (max 500)
+   eps = 0.000657 >= 0.0001
+Iteration 153 (max 500)
+   eps = 0.000637 >= 0.0001
+Iteration 154 (max 500)
+   eps = 0.000618 >= 0.0001
+Iteration 155 (max 500)
+   eps = 0.0006 >= 0.0001
+Iteration 156 (max 500)
+   eps = 0.000582 >= 0.0001
+Iteration 157 (max 500)
+   eps = 0.000558 >= 0.0001
+Iteration 158 (max 500)
+   eps = 0.000538 >= 0.0001
+Iteration 159 (max 500)
+   eps = 0.000518 >= 0.0001
+Iteration 160 (max 500)
+   eps = 0.0005 >= 0.0001
+Iteration 161 (max 500)
+   eps = 0.000486 >= 0.0001
+Iteration 162 (max 500)
+   eps = 0.000467 >= 0.0001
+Iteration 163 (max 500)
+   eps = 0.000449 >= 0.0001
+Iteration 164 (max 500)
+   eps = 0.000441 >= 0.0001
+Iteration 165 (max 500)
+   eps = 0.000424 >= 0.0001
+Iteration 166 (max 500)
+   eps = 0.000406 >= 0.0001
+Iteration 167 (max 500)
+   eps = 0.000389 >= 0.0001
+Iteration 168 (max 500)
+   eps = 0.000374 >= 0.0001
+Iteration 169 (max 500)
+   eps = 0.00036 >= 0.0001
+Iteration 170 (max 500)
+   eps = 0.000347 >= 0.0001
+Iteration 171 (max 500)
+   eps = 0.000336 >= 0.0001
+Iteration 172 (max 500)
+   eps = 0.000325 >= 0.0001
+Iteration 173 (max 500)
+   eps = 0.000313 >= 0.0001
+Iteration 174 (max 500)
+   eps = 0.0003 >= 0.0001
+Iteration 175 (max 500)
+   eps = 0.000289 >= 0.0001
+Iteration 176 (max 500)
+   eps = 0.00028 >= 0.0001
+Iteration 177 (max 500)
+   eps = 0.000271 >= 0.0001
+Iteration 178 (max 500)
+   eps = 0.00026 >= 0.0001
+Iteration 179 (max 500)
+   eps = 0.000252 >= 0.0001
+Iteration 180 (max 500)
+   eps = 0.000243 >= 0.0001
+Iteration 181 (max 500)
+   eps = 0.000235 >= 0.0001
+Iteration 182 (max 500)
+   eps = 0.000228 >= 0.0001
+Iteration 183 (max 500)
+   eps = 0.000219 >= 0.0001
+Iteration 184 (max 500)
+   eps = 0.000211 >= 0.0001
+Iteration 185 (max 500)
+   eps = 0.000203 >= 0.0001
+Iteration 186 (max 500)
+   eps = 0.000196 >= 0.0001
+Iteration 187 (max 500)
+   eps = 0.00019 >= 0.0001
+Iteration 188 (max 500)
+   eps = 0.000183 >= 0.0001
+Iteration 189 (max 500)
+   eps = 0.000176 >= 0.0001
+Iteration 190 (max 500)
+   eps = 0.00017 >= 0.0001
+Iteration 191 (max 500)
+   eps = 0.000164 >= 0.0001
+Iteration 192 (max 500)
+   eps = 0.000158 >= 0.0001
+Iteration 193 (max 500)
+   eps = 0.000152 >= 0.0001
+Iteration 194 (max 500)
+   eps = 0.000146 >= 0.0001
+Iteration 195 (max 500)
+   eps = 0.000141 >= 0.0001
+Iteration 196 (max 500)
+   eps = 0.000136 >= 0.0001
+Iteration 197 (max 500)
+   eps = 0.000131 >= 0.0001
+Iteration 198 (max 500)
+   eps = 0.000127 >= 0.0001
+Iteration 199 (max 500)
+   eps = 0.000123 >= 0.0001
+Iteration 200 (max 500)
+   eps = 0.000118 >= 0.0001
+Iteration 201 (max 500)
+   eps = 0.000114 >= 0.0001
+Iteration 202 (max 500)
+   eps = 0.00011 >= 0.0001
+Iteration 203 (max 500)
+   eps = 0.000106 >= 0.0001
+Iteration 204 (max 500)
+   eps = 0.000103 >= 0.0001
+Iteration 205 (max 500)
+Time spent by the wind speed solver: 8.05315637588501 s
+Rotates geometries from -45.0 degrees
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Process 3857085: Successfully ran URock for tile output 'wind_field_raw_tile_8'.
+Process 3857085: Elapsed time for URock ('wind_field_raw_tile_8'): 67.00 seconds.
+[Master] Process 3857085 - Tile 8: Finished processing.
+[Master] 3857085: exit signal
+Info: Debuffered '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_8_urock_raw_outputs/z1_5/wind_field_raw_tile_8WS.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output/urock_wind_field_tile_8WS.tif' (original extent: (234382.59099838723, 902532.4833440109, 234642.58635222574, 902792.4786978494)).
+Connecting to database
+	->/tmp/URock_2025-12-21T16474377dedca6-b704-44ba-995d-72c8028116b4/myDbH2
+/storage/home/hcoda1/4/hyu483/qgis_332/profiles/default/python/plugins/processing_umep/functions/URock/h2gis-standalone/h2gis-dist-2.2.3.jar
+Connected!
+
+Spatial functions added!
+
+Load input data
+Load table 'build_pre_srid_20251221164749'
+Load table 'veg_pre_srid_20251221164749'
+Creates blocks and stacked blocks
+Rotates geometries from 45.0 degrees
+Identify block base height and block cavity base
+Calculates obstacle properties
+Calculates zone properties
+Initializes upwind facades
+Update upwind facades base height
+Initializes downwind facades
+Calculates study area properties
+Roughness zone properties are:
+
+                                 - z0: 1.3659683839921337
+                                 - d: 6.442672565560281
+                                 - Hr: 9.106455893280891
+                                 - H_ob_max: 56
+                                 - lambda_f: 0.17138308440967656
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates displacement zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates cavity and wake zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates street canyon zones
+Rotates geometries from -45.0 degrees
+Creates rooftop zones (perpendicular and corner)
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates built-up and open vegetation zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Identify the buildings concerned by the impacted zone chosen by the user
+Creates the grid of points
+Affects each grid point to a building Rockle zone and calculates needed 
+          variables for 3D wind speed
+Affects each grid point to a vegetation Rockle zone and calculates 
+          needed variables for 3D wind speed
+Remove some of the Röckle zone points
+Creates backward zones
+Calculates the 3D wind speed factor value for each point of each BUILDING zone
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Calculates the 3D wind speed factor value for each point of each VEGETATION zone
+Rotates geometries from -45.0 degrees
+Deals with superimposition (keeps only 1 value per 3D point)
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Rotates geometries from -45.0 degrees
+Identify grid points intersecting buildings
+Set the initial 3D wind speed field
+Time spent for wind speed initialization: 47.65926003456116 s
+Shape: (168, 213, 28) - Nb cells: 1001952
+Start to apply the wind solver
+Iteration 1 (max 500)
+   eps = 0.559 >= 0.0001
+Iteration 2 (max 500)
+   eps = 0.389997 >= 0.0001
+Iteration 3 (max 500)
+   eps = 0.322948 >= 0.0001
+Iteration 4 (max 500)
+   eps = 0.271354 >= 0.0001
+Iteration 5 (max 500)
+   eps = 0.227222 >= 0.0001
+Iteration 6 (max 500)
+   eps = 0.195549 >= 0.0001
+Iteration 7 (max 500)
+   eps = 0.170523 >= 0.0001
+Iteration 8 (max 500)
+   eps = 0.150896 >= 0.0001
+Iteration 9 (max 500)
+   eps = 0.134653 >= 0.0001
+Iteration 10 (max 500)
+   eps = 0.121537 >= 0.0001
+Iteration 11 (max 500)
+   eps = 0.110803 >= 0.0001
+Iteration 12 (max 500)
+   eps = 0.102037 >= 0.0001
+Iteration 13 (max 500)
+   eps = 0.094716 >= 0.0001
+Iteration 14 (max 500)
+   eps = 0.088189 >= 0.0001
+Iteration 15 (max 500)
+   eps = 0.082537 >= 0.0001
+Iteration 16 (max 500)
+   eps = 0.077614 >= 0.0001
+Iteration 17 (max 500)
+   eps = 0.073155 >= 0.0001
+Iteration 18 (max 500)
+   eps = 0.069238 >= 0.0001
+Iteration 19 (max 500)
+   eps = 0.065776 >= 0.0001
+Iteration 20 (max 500)
+   eps = 0.062824 >= 0.0001
+Iteration 21 (max 500)
+   eps = 0.060253 >= 0.0001
+Iteration 22 (max 500)
+   eps = 0.057592 >= 0.0001
+Iteration 23 (max 500)
+   eps = 0.055074 >= 0.0001
+Iteration 24 (max 500)
+   eps = 0.052764 >= 0.0001
+Iteration 25 (max 500)
+   eps = 0.050603 >= 0.0001
+Iteration 26 (max 500)
+   eps = 0.054581 >= 0.0001
+Iteration 27 (max 500)
+   eps = 0.047571 >= 0.0001
+Iteration 28 (max 500)
+   eps = 0.045162 >= 0.0001
+Iteration 29 (max 500)
+   eps = 0.043483 >= 0.0001
+Iteration 30 (max 500)
+   eps = 0.042148 >= 0.0001
+Iteration 31 (max 500)
+   eps = 0.040863 >= 0.0001
+Iteration 32 (max 500)
+   eps = 0.03967 >= 0.0001
+Iteration 33 (max 500)
+   eps = 0.038516 >= 0.0001
+Iteration 34 (max 500)
+   eps = 0.037467 >= 0.0001
+Iteration 35 (max 500)
+   eps = 0.036482 >= 0.0001
+Iteration 36 (max 500)
+   eps = 0.035575 >= 0.0001
+Iteration 37 (max 500)
+   eps = 0.034727 >= 0.0001
+Iteration 38 (max 500)
+   eps = 0.033861 >= 0.0001
+Iteration 39 (max 500)
+   eps = 0.03297 >= 0.0001
+Iteration 40 (max 500)
+   eps = 0.032101 >= 0.0001
+Iteration 41 (max 500)
+   eps = 0.031281 >= 0.0001
+Iteration 42 (max 500)
+   eps = 0.030487 >= 0.0001
+Iteration 43 (max 500)
+   eps = 0.029755 >= 0.0001
+Iteration 44 (max 500)
+   eps = 0.029081 >= 0.0001
+Iteration 45 (max 500)
+   eps = 0.028447 >= 0.0001
+Iteration 46 (max 500)
+   eps = 0.027874 >= 0.0001
+Iteration 47 (max 500)
+   eps = 0.027269 >= 0.0001
+Iteration 48 (max 500)
+   eps = 0.026618 >= 0.0001
+Iteration 49 (max 500)
+   eps = 0.025999 >= 0.0001
+Iteration 50 (max 500)
+   eps = 0.025438 >= 0.0001
+Iteration 51 (max 500)
+   eps = 0.024911 >= 0.0001
+Iteration 52 (max 500)
+   eps = 0.024395 >= 0.0001
+Iteration 53 (max 500)
+   eps = 0.023843 >= 0.0001
+Iteration 54 (max 500)
+   eps = 0.023289 >= 0.0001
+Iteration 55 (max 500)
+   eps = 0.022756 >= 0.0001
+Iteration 56 (max 500)
+   eps = 0.022238 >= 0.0001
+Iteration 57 (max 500)
+   eps = 0.021676 >= 0.0001
+Iteration 58 (max 500)
+   eps = 0.021154 >= 0.0001
+Iteration 59 (max 500)
+   eps = 0.020668 >= 0.0001
+Iteration 60 (max 500)
+   eps = 0.020223 >= 0.0001
+Iteration 61 (max 500)
+   eps = 0.019808 >= 0.0001
+Iteration 62 (max 500)
+   eps = 0.019399 >= 0.0001
+Iteration 63 (max 500)
+   eps = 0.018983 >= 0.0001
+Iteration 64 (max 500)
+   eps = 0.018553 >= 0.0001
+Iteration 65 (max 500)
+   eps = 0.018145 >= 0.0001
+Iteration 66 (max 500)
+   eps = 0.017745 >= 0.0001
+Iteration 67 (max 500)
+   eps = 0.017341 >= 0.0001
+Iteration 68 (max 500)
+   eps = 0.016936 >= 0.0001
+Iteration 69 (max 500)
+   eps = 0.016546 >= 0.0001
+Iteration 70 (max 500)
+   eps = 0.016186 >= 0.0001
+Iteration 71 (max 500)
+   eps = 0.015827 >= 0.0001
+Iteration 72 (max 500)
+   eps = 0.015473 >= 0.0001
+Iteration 73 (max 500)
+   eps = 0.015094 >= 0.0001
+Iteration 74 (max 500)
+   eps = 0.014726 >= 0.0001
+Iteration 75 (max 500)
+   eps = 0.014377 >= 0.0001
+Iteration 76 (max 500)
+   eps = 0.014049 >= 0.0001
+Iteration 77 (max 500)
+   eps = 0.013703 >= 0.0001
+Iteration 78 (max 500)
+   eps = 0.013389 >= 0.0001
+Iteration 79 (max 500)
+   eps = 0.013081 >= 0.0001
+Iteration 80 (max 500)
+   eps = 0.012786 >= 0.0001
+Iteration 81 (max 500)
+   eps = 0.012498 >= 0.0001
+Iteration 82 (max 500)
+   eps = 0.012201 >= 0.0001
+Iteration 83 (max 500)
+   eps = 0.011895 >= 0.0001
+Iteration 84 (max 500)
+   eps = 0.011611 >= 0.0001
+Iteration 85 (max 500)
+   eps = 0.011315 >= 0.0001
+Iteration 86 (max 500)
+   eps = 0.01103 >= 0.0001
+Iteration 87 (max 500)
+   eps = 0.010764 >= 0.0001
+Iteration 88 (max 500)
+   eps = 0.010516 >= 0.0001
+Iteration 89 (max 500)
+   eps = 0.01027 >= 0.0001
+Iteration 90 (max 500)
+   eps = 0.010031 >= 0.0001
+Iteration 91 (max 500)
+   eps = 0.009801 >= 0.0001
+Iteration 92 (max 500)
+   eps = 0.009577 >= 0.0001
+Iteration 93 (max 500)
+   eps = 0.009371 >= 0.0001
+Iteration 94 (max 500)
+   eps = 0.009166 >= 0.0001
+Iteration 95 (max 500)
+   eps = 0.008968 >= 0.0001
+Iteration 96 (max 500)
+   eps = 0.008747 >= 0.0001
+Iteration 97 (max 500)
+   eps = 0.008525 >= 0.0001
+Iteration 98 (max 500)
+   eps = 0.008338 >= 0.0001
+Iteration 99 (max 500)
+   eps = 0.008143 >= 0.0001
+Iteration 100 (max 500)
+   eps = 0.007946 >= 0.0001
+Iteration 101 (max 500)
+   eps = 0.007738 >= 0.0001
+Iteration 102 (max 500)
+   eps = 0.007534 >= 0.0001
+Iteration 103 (max 500)
+   eps = 0.007366 >= 0.0001
+Iteration 104 (max 500)
+   eps = 0.00719 >= 0.0001
+Iteration 105 (max 500)
+   eps = 0.007019 >= 0.0001
+Iteration 106 (max 500)
+   eps = 0.006806 >= 0.0001
+Iteration 107 (max 500)
+   eps = 0.006596 >= 0.0001
+Iteration 108 (max 500)
+   eps = 0.006408 >= 0.0001
+Iteration 109 (max 500)
+   eps = 0.006217 >= 0.0001
+Iteration 110 (max 500)
+   eps = 0.006039 >= 0.0001
+Iteration 111 (max 500)
+   eps = 0.005877 >= 0.0001
+Iteration 112 (max 500)
+   eps = 0.005735 >= 0.0001
+Iteration 113 (max 500)
+   eps = 0.005609 >= 0.0001
+Iteration 114 (max 500)
+   eps = 0.005471 >= 0.0001
+Iteration 115 (max 500)
+   eps = 0.005358 >= 0.0001
+Iteration 116 (max 500)
+   eps = 0.005264 >= 0.0001
+Iteration 117 (max 500)
+   eps = 0.005171 >= 0.0001
+Iteration 118 (max 500)
+   eps = 0.005079 >= 0.0001
+Iteration 119 (max 500)
+   eps = 0.004962 >= 0.0001
+Iteration 120 (max 500)
+   eps = 0.004882 >= 0.0001
+Iteration 121 (max 500)
+   eps = 0.004803 >= 0.0001
+Iteration 122 (max 500)
+   eps = 0.00468 >= 0.0001
+Iteration 123 (max 500)
+   eps = 0.004544 >= 0.0001
+Iteration 124 (max 500)
+   eps = 0.004432 >= 0.0001
+Iteration 125 (max 500)
+   eps = 0.004327 >= 0.0001
+Iteration 126 (max 500)
+   eps = 0.004233 >= 0.0001
+Iteration 127 (max 500)
+   eps = 0.00414 >= 0.0001
+Iteration 128 (max 500)
+   eps = 0.004044 >= 0.0001
+Iteration 129 (max 500)
+   eps = 0.003943 >= 0.0001
+Iteration 130 (max 500)
+   eps = 0.003827 >= 0.0001
+Iteration 131 (max 500)
+   eps = 0.003724 >= 0.0001
+Iteration 132 (max 500)
+   eps = 0.003637 >= 0.0001
+Iteration 133 (max 500)
+   eps = 0.003535 >= 0.0001
+Iteration 134 (max 500)
+   eps = 0.003436 >= 0.0001
+Iteration 135 (max 500)
+   eps = 0.003349 >= 0.0001
+Iteration 136 (max 500)
+   eps = 0.003267 >= 0.0001
+Iteration 137 (max 500)
+   eps = 0.003184 >= 0.0001
+Iteration 138 (max 500)
+   eps = 0.003108 >= 0.0001
+Iteration 139 (max 500)
+   eps = 0.003033 >= 0.0001
+Iteration 140 (max 500)
+   eps = 0.002955 >= 0.0001
+Iteration 141 (max 500)
+   eps = 0.002886 >= 0.0001
+Iteration 142 (max 500)
+   eps = 0.002818 >= 0.0001
+Iteration 143 (max 500)
+   eps = 0.002755 >= 0.0001
+Iteration 144 (max 500)
+   eps = 0.002692 >= 0.0001
+Iteration 145 (max 500)
+   eps = 0.002635 >= 0.0001
+Iteration 146 (max 500)
+   eps = 0.002578 >= 0.0001
+Iteration 147 (max 500)
+   eps = 0.002529 >= 0.0001
+Iteration 148 (max 500)
+   eps = 0.002465 >= 0.0001
+Iteration 149 (max 500)
+   eps = 0.002392 >= 0.0001
+Iteration 150 (max 500)
+   eps = 0.002339 >= 0.0001
+Iteration 151 (max 500)
+   eps = 0.002285 >= 0.0001
+Iteration 152 (max 500)
+   eps = 0.002232 >= 0.0001
+Iteration 153 (max 500)
+   eps = 0.002174 >= 0.0001
+Iteration 154 (max 500)
+   eps = 0.002123 >= 0.0001
+Iteration 155 (max 500)
+   eps = 0.002069 >= 0.0001
+Iteration 156 (max 500)
+   eps = 0.002018 >= 0.0001
+Iteration 157 (max 500)
+   eps = 0.001974 >= 0.0001
+Iteration 158 (max 500)
+   eps = 0.00193 >= 0.0001
+Iteration 159 (max 500)
+   eps = 0.001886 >= 0.0001
+Iteration 160 (max 500)
+   eps = 0.001839 >= 0.0001
+Iteration 161 (max 500)
+   eps = 0.001794 >= 0.0001
+Iteration 162 (max 500)
+   eps = 0.001751 >= 0.0001
+Iteration 163 (max 500)
+   eps = 0.00171 >= 0.0001
+Iteration 164 (max 500)
+   eps = 0.001673 >= 0.0001
+Iteration 165 (max 500)
+   eps = 0.001636 >= 0.0001
+Iteration 166 (max 500)
+   eps = 0.001601 >= 0.0001
+Iteration 167 (max 500)
+   eps = 0.001562 >= 0.0001
+Iteration 168 (max 500)
+   eps = 0.001528 >= 0.0001
+Iteration 169 (max 500)
+   eps = 0.001491 >= 0.0001
+Iteration 170 (max 500)
+   eps = 0.001448 >= 0.0001
+Iteration 171 (max 500)
+   eps = 0.001412 >= 0.0001
+Iteration 172 (max 500)
+   eps = 0.001378 >= 0.0001
+Iteration 173 (max 500)
+   eps = 0.001345 >= 0.0001
+Iteration 174 (max 500)
+   eps = 0.001311 >= 0.0001
+Iteration 175 (max 500)
+   eps = 0.001281 >= 0.0001
+Iteration 176 (max 500)
+   eps = 0.001252 >= 0.0001
+Iteration 177 (max 500)
+   eps = 0.001223 >= 0.0001
+Iteration 178 (max 500)
+   eps = 0.001194 >= 0.0001
+Iteration 179 (max 500)
+   eps = 0.001165 >= 0.0001
+Iteration 180 (max 500)
+   eps = 0.001139 >= 0.0001
+Iteration 181 (max 500)
+   eps = 0.001111 >= 0.0001
+Iteration 182 (max 500)
+   eps = 0.001086 >= 0.0001
+Iteration 183 (max 500)
+   eps = 0.00106 >= 0.0001
+Iteration 184 (max 500)
+   eps = 0.001034 >= 0.0001
+Iteration 185 (max 500)
+   eps = 0.001011 >= 0.0001
+Iteration 186 (max 500)
+   eps = 0.000992 >= 0.0001
+Iteration 187 (max 500)
+   eps = 0.00097 >= 0.0001
+Iteration 188 (max 500)
+   eps = 0.000946 >= 0.0001
+Iteration 189 (max 500)
+   eps = 0.00092 >= 0.0001
+Iteration 190 (max 500)
+   eps = 0.000897 >= 0.0001
+Iteration 191 (max 500)
+   eps = 0.000879 >= 0.0001
+Iteration 192 (max 500)
+   eps = 0.00086 >= 0.0001
+Iteration 193 (max 500)
+   eps = 0.000839 >= 0.0001
+Iteration 194 (max 500)
+   eps = 0.000819 >= 0.0001
+Iteration 195 (max 500)
+   eps = 0.000801 >= 0.0001
+Iteration 196 (max 500)
+   eps = 0.000783 >= 0.0001
+Iteration 197 (max 500)
+   eps = 0.000764 >= 0.0001
+Iteration 198 (max 500)
+   eps = 0.000745 >= 0.0001
+Iteration 199 (max 500)
+   eps = 0.000727 >= 0.0001
+Iteration 200 (max 500)
+   eps = 0.000709 >= 0.0001
+Iteration 201 (max 500)
+   eps = 0.000693 >= 0.0001
+Iteration 202 (max 500)
+   eps = 0.000679 >= 0.0001
+Iteration 203 (max 500)
+   eps = 0.000664 >= 0.0001
+Iteration 204 (max 500)
+   eps = 0.00065 >= 0.0001
+Iteration 205 (max 500)
+   eps = 0.000636 >= 0.0001
+Iteration 206 (max 500)
+   eps = 0.000622 >= 0.0001
+Iteration 207 (max 500)
+   eps = 0.000607 >= 0.0001
+Iteration 208 (max 500)
+   eps = 0.000591 >= 0.0001
+Iteration 209 (max 500)
+   eps = 0.000576 >= 0.0001
+Iteration 210 (max 500)
+   eps = 0.00056 >= 0.0001
+Iteration 211 (max 500)
+   eps = 0.000544 >= 0.0001
+Iteration 212 (max 500)
+   eps = 0.000531 >= 0.0001
+Iteration 213 (max 500)
+   eps = 0.000519 >= 0.0001
+Iteration 214 (max 500)
+   eps = 0.000508 >= 0.0001
+Iteration 215 (max 500)
+   eps = 0.000496 >= 0.0001
+Iteration 216 (max 500)
+   eps = 0.000485 >= 0.0001
+Iteration 217 (max 500)
+   eps = 0.000475 >= 0.0001
+Iteration 218 (max 500)
+   eps = 0.000463 >= 0.0001
+Iteration 219 (max 500)
+   eps = 0.000451 >= 0.0001
+Iteration 220 (max 500)
+   eps = 0.00044 >= 0.0001
+Iteration 221 (max 500)
+   eps = 0.00043 >= 0.0001
+Iteration 222 (max 500)
+   eps = 0.000419 >= 0.0001
+Iteration 223 (max 500)
+   eps = 0.000409 >= 0.0001
+Iteration 224 (max 500)
+   eps = 0.0004 >= 0.0001
+Iteration 225 (max 500)
+   eps = 0.00039 >= 0.0001
+Iteration 226 (max 500)
+   eps = 0.00038 >= 0.0001
+Iteration 227 (max 500)
+   eps = 0.00037 >= 0.0001
+Iteration 228 (max 500)
+   eps = 0.000361 >= 0.0001
+Iteration 229 (max 500)
+   eps = 0.000351 >= 0.0001
+Iteration 230 (max 500)
+   eps = 0.000342 >= 0.0001
+Iteration 231 (max 500)
+   eps = 0.000334 >= 0.0001
+Iteration 232 (max 500)
+   eps = 0.000326 >= 0.0001
+Iteration 233 (max 500)
+   eps = 0.000317 >= 0.0001
+Iteration 234 (max 500)
+   eps = 0.000309 >= 0.0001
+Iteration 235 (max 500)
+   eps = 0.000302 >= 0.0001
+Iteration 236 (max 500)
+   eps = 0.000293 >= 0.0001
+Iteration 237 (max 500)
+   eps = 0.000286 >= 0.0001
+Iteration 238 (max 500)
+   eps = 0.000278 >= 0.0001
+Iteration 239 (max 500)
+   eps = 0.000271 >= 0.0001
+Iteration 240 (max 500)
+   eps = 0.000264 >= 0.0001
+Iteration 241 (max 500)
+   eps = 0.000258 >= 0.0001
+Iteration 242 (max 500)
+   eps = 0.000252 >= 0.0001
+Iteration 243 (max 500)
+   eps = 0.000245 >= 0.0001
+Iteration 244 (max 500)
+   eps = 0.00024 >= 0.0001
+Iteration 245 (max 500)
+   eps = 0.000233 >= 0.0001
+Iteration 246 (max 500)
+   eps = 0.000227 >= 0.0001
+Iteration 247 (max 500)
+   eps = 0.000221 >= 0.0001
+Iteration 248 (max 500)
+   eps = 0.000216 >= 0.0001
+Iteration 249 (max 500)
+   eps = 0.00021 >= 0.0001
+Iteration 250 (max 500)
+   eps = 0.000205 >= 0.0001
+Iteration 251 (max 500)
+   eps = 0.000199 >= 0.0001
+Iteration 252 (max 500)
+   eps = 0.000194 >= 0.0001
+Iteration 253 (max 500)
+   eps = 0.000188 >= 0.0001
+Iteration 254 (max 500)
+   eps = 0.000184 >= 0.0001
+Iteration 255 (max 500)
+   eps = 0.000178 >= 0.0001
+Iteration 256 (max 500)
+   eps = 0.000174 >= 0.0001
+Iteration 257 (max 500)
+   eps = 0.000169 >= 0.0001
+Iteration 258 (max 500)
+   eps = 0.000165 >= 0.0001
+Iteration 259 (max 500)
+   eps = 0.00016 >= 0.0001
+Iteration 260 (max 500)
+   eps = 0.000156 >= 0.0001
+Iteration 261 (max 500)
+   eps = 0.000152 >= 0.0001
+Iteration 262 (max 500)
+   eps = 0.000148 >= 0.0001
+Iteration 263 (max 500)
+   eps = 0.000144 >= 0.0001
+Iteration 264 (max 500)
+   eps = 0.00014 >= 0.0001
+Iteration 265 (max 500)
+   eps = 0.000136 >= 0.0001
+Iteration 266 (max 500)
+   eps = 0.000132 >= 0.0001
+Iteration 267 (max 500)
+   eps = 0.000129 >= 0.0001
+Iteration 268 (max 500)
+   eps = 0.000125 >= 0.0001
+Iteration 269 (max 500)
+   eps = 0.000122 >= 0.0001
+Iteration 270 (max 500)
+   eps = 0.000119 >= 0.0001
+Iteration 271 (max 500)
+   eps = 0.000116 >= 0.0001
+Iteration 272 (max 500)
+   eps = 0.000113 >= 0.0001
+Iteration 273 (max 500)
+   eps = 0.00011 >= 0.0001
+Iteration 274 (max 500)
+   eps = 0.000107 >= 0.0001
+Iteration 275 (max 500)
+   eps = 0.000104 >= 0.0001
+Iteration 276 (max 500)
+   eps = 0.000101 >= 0.0001
+Iteration 277 (max 500)
+Time spent by the wind speed solver: 18.094600677490234 s
+Rotates geometries from -45.0 degrees
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Process 3857104: Successfully ran URock for tile output 'wind_field_raw_tile_2'.
+Process 3857104: Elapsed time for URock ('wind_field_raw_tile_2'): 90.42 seconds.
+[Master] Process 3857104 - Tile 2: Finished processing.
+[Master] 3857104: exit signal
+Info: Debuffered '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_2_urock_raw_outputs/z1_5/wind_field_raw_tile_2WS.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output/urock_wind_field_tile_2WS.tif' (original extent: (233582.59099838723, 902532.4833440109, 233982.59099838723, 902792.4786978494)).
+Connecting to database
+	->/tmp/URock_2025-12-21T164742da866678-9325-476b-8b88-d2283a9ad605/myDbH2
+/storage/home/hcoda1/4/hyu483/qgis_332/profiles/default/python/plugins/processing_umep/functions/URock/h2gis-standalone/h2gis-dist-2.2.3.jar
+Connected!
+
+Spatial functions added!
+
+Load input data
+Load table 'build_pre_srid_20251221164749'
+Load table 'veg_pre_srid_20251221164749'
+Creates blocks and stacked blocks
+Rotates geometries from 45.0 degrees
+Identify block base height and block cavity base
+Calculates obstacle properties
+Calculates zone properties
+Initializes upwind facades
+Update upwind facades base height
+Initializes downwind facades
+Calculates study area properties
+Roughness zone properties are:
+
+                                 - z0: 1.9894677723411853
+                                 - d: 9.373678152559513
+                                 - Hr: 13.26311848227457
+                                 - H_ob_max: 33
+                                 - lambda_f: 0.1692790718513191
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates displacement zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates cavity and wake zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates street canyon zones
+Rotates geometries from -45.0 degrees
+Creates rooftop zones (perpendicular and corner)
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates built-up and open vegetation zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Identify the buildings concerned by the impacted zone chosen by the user
+Creates the grid of points
+Affects each grid point to a building Rockle zone and calculates needed 
+          variables for 3D wind speed
+Affects each grid point to a vegetation Rockle zone and calculates 
+          needed variables for 3D wind speed
+Remove some of the Röckle zone points
+Creates backward zones
+Calculates the 3D wind speed factor value for each point of each BUILDING zone
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Calculates the 3D wind speed factor value for each point of each VEGETATION zone
+Rotates geometries from -45.0 degrees
+Deals with superimposition (keeps only 1 value per 3D point)
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Rotates geometries from -45.0 degrees
+Identify grid points intersecting buildings
+Set the initial 3D wind speed field
+Time spent for wind speed initialization: 49.44245934486389 s
+Shape: (179, 213, 24) - Nb cells: 915048
+Start to apply the wind solver
+Iteration 1 (max 500)
+   eps = 0.660777 >= 0.0001
+Iteration 2 (max 500)
+   eps = 0.438066 >= 0.0001
+Iteration 3 (max 500)
+   eps = 0.338021 >= 0.0001
+Iteration 4 (max 500)
+   eps = 0.273191 >= 0.0001
+Iteration 5 (max 500)
+   eps = 0.225282 >= 0.0001
+Iteration 6 (max 500)
+   eps = 0.190958 >= 0.0001
+Iteration 7 (max 500)
+   eps = 0.164453 >= 0.0001
+Iteration 8 (max 500)
+   eps = 0.143344 >= 0.0001
+Iteration 9 (max 500)
+   eps = 0.126427 >= 0.0001
+Iteration 10 (max 500)
+   eps = 0.112121 >= 0.0001
+Iteration 11 (max 500)
+   eps = 0.100705 >= 0.0001
+Iteration 12 (max 500)
+   eps = 0.090205 >= 0.0001
+Iteration 13 (max 500)
+   eps = 0.081829 >= 0.0001
+Iteration 14 (max 500)
+   eps = 0.075041 >= 0.0001
+Iteration 15 (max 500)
+   eps = 0.069242 >= 0.0001
+Iteration 16 (max 500)
+   eps = 0.064607 >= 0.0001
+Iteration 17 (max 500)
+   eps = 0.060441 >= 0.0001
+Iteration 18 (max 500)
+   eps = 0.057127 >= 0.0001
+Iteration 19 (max 500)
+   eps = 0.054005 >= 0.0001
+Iteration 20 (max 500)
+   eps = 0.05122 >= 0.0001
+Iteration 21 (max 500)
+   eps = 0.048716 >= 0.0001
+Iteration 22 (max 500)
+   eps = 0.049828 >= 0.0001
+Iteration 23 (max 500)
+   eps = 0.048586 >= 0.0001
+Iteration 24 (max 500)
+   eps = 0.044442 >= 0.0001
+Iteration 25 (max 500)
+   eps = 0.04244 >= 0.0001
+Iteration 26 (max 500)
+   eps = 0.040936 >= 0.0001
+Iteration 27 (max 500)
+   eps = 0.039382 >= 0.0001
+Iteration 28 (max 500)
+   eps = 0.038051 >= 0.0001
+Iteration 29 (max 500)
+   eps = 0.036886 >= 0.0001
+Iteration 30 (max 500)
+   eps = 0.03566 >= 0.0001
+Iteration 31 (max 500)
+   eps = 0.034492 >= 0.0001
+Iteration 32 (max 500)
+   eps = 0.033651 >= 0.0001
+Iteration 33 (max 500)
+   eps = 0.032788 >= 0.0001
+Iteration 34 (max 500)
+   eps = 0.031814 >= 0.0001
+Iteration 35 (max 500)
+   eps = 0.030904 >= 0.0001
+Iteration 36 (max 500)
+   eps = 0.030063 >= 0.0001
+Iteration 37 (max 500)
+   eps = 0.029296 >= 0.0001
+Iteration 38 (max 500)
+   eps = 0.028619 >= 0.0001
+Iteration 39 (max 500)
+   eps = 0.027834 >= 0.0001
+Iteration 40 (max 500)
+   eps = 0.027128 >= 0.0001
+Iteration 41 (max 500)
+   eps = 0.02643 >= 0.0001
+Iteration 42 (max 500)
+   eps = 0.025801 >= 0.0001
+Iteration 43 (max 500)
+   eps = 0.025156 >= 0.0001
+Iteration 44 (max 500)
+   eps = 0.024619 >= 0.0001
+Iteration 45 (max 500)
+   eps = 0.024013 >= 0.0001
+Iteration 46 (max 500)
+   eps = 0.023401 >= 0.0001
+Iteration 47 (max 500)
+   eps = 0.022813 >= 0.0001
+Iteration 48 (max 500)
+   eps = 0.022235 >= 0.0001
+Iteration 49 (max 500)
+   eps = 0.021643 >= 0.0001
+Iteration 50 (max 500)
+   eps = 0.021134 >= 0.0001
+Iteration 51 (max 500)
+   eps = 0.020624 >= 0.0001
+Iteration 52 (max 500)
+   eps = 0.020141 >= 0.0001
+Iteration 53 (max 500)
+   eps = 0.01967 >= 0.0001
+Iteration 54 (max 500)
+   eps = 0.019256 >= 0.0001
+Iteration 55 (max 500)
+   eps = 0.018835 >= 0.0001
+Iteration 56 (max 500)
+   eps = 0.018396 >= 0.0001
+Iteration 57 (max 500)
+   eps = 0.017999 >= 0.0001
+Iteration 58 (max 500)
+   eps = 0.01758 >= 0.0001
+Iteration 59 (max 500)
+   eps = 0.01718 >= 0.0001
+Iteration 60 (max 500)
+   eps = 0.016797 >= 0.0001
+Iteration 61 (max 500)
+   eps = 0.016401 >= 0.0001
+Iteration 62 (max 500)
+   eps = 0.015976 >= 0.0001
+Iteration 63 (max 500)
+   eps = 0.015552 >= 0.0001
+Iteration 64 (max 500)
+   eps = 0.015166 >= 0.0001
+Iteration 65 (max 500)
+   eps = 0.014814 >= 0.0001
+Iteration 66 (max 500)
+   eps = 0.014459 >= 0.0001
+Iteration 67 (max 500)
+   eps = 0.014106 >= 0.0001
+Iteration 68 (max 500)
+   eps = 0.013777 >= 0.0001
+Iteration 69 (max 500)
+   eps = 0.01347 >= 0.0001
+Iteration 70 (max 500)
+   eps = 0.013156 >= 0.0001
+Iteration 71 (max 500)
+   eps = 0.012863 >= 0.0001
+Iteration 72 (max 500)
+   eps = 0.012575 >= 0.0001
+Iteration 73 (max 500)
+   eps = 0.012258 >= 0.0001
+Iteration 74 (max 500)
+   eps = 0.011969 >= 0.0001
+Iteration 75 (max 500)
+   eps = 0.0117 >= 0.0001
+Iteration 76 (max 500)
+   eps = 0.011451 >= 0.0001
+Iteration 77 (max 500)
+   eps = 0.011156 >= 0.0001
+Iteration 78 (max 500)
+   eps = 0.010853 >= 0.0001
+Iteration 79 (max 500)
+   eps = 0.010556 >= 0.0001
+Iteration 80 (max 500)
+   eps = 0.010309 >= 0.0001
+Iteration 81 (max 500)
+   eps = 0.010077 >= 0.0001
+Iteration 82 (max 500)
+   eps = 0.009848 >= 0.0001
+Iteration 83 (max 500)
+   eps = 0.009637 >= 0.0001
+Iteration 84 (max 500)
+   eps = 0.009415 >= 0.0001
+Iteration 85 (max 500)
+   eps = 0.00921 >= 0.0001
+Iteration 86 (max 500)
+   eps = 0.009011 >= 0.0001
+Iteration 87 (max 500)
+   eps = 0.008821 >= 0.0001
+Iteration 88 (max 500)
+   eps = 0.008617 >= 0.0001
+Iteration 89 (max 500)
+   eps = 0.008461 >= 0.0001
+Iteration 90 (max 500)
+   eps = 0.008312 >= 0.0001
+Iteration 91 (max 500)
+   eps = 0.008139 >= 0.0001
+Iteration 92 (max 500)
+   eps = 0.007951 >= 0.0001
+Iteration 93 (max 500)
+   eps = 0.00775 >= 0.0001
+Iteration 94 (max 500)
+   eps = 0.007558 >= 0.0001
+Iteration 95 (max 500)
+   eps = 0.007384 >= 0.0001
+Iteration 96 (max 500)
+   eps = 0.00722 >= 0.0001
+Iteration 97 (max 500)
+   eps = 0.00705 >= 0.0001
+Iteration 98 (max 500)
+   eps = 0.006885 >= 0.0001
+Iteration 99 (max 500)
+   eps = 0.006728 >= 0.0001
+Iteration 100 (max 500)
+   eps = 0.006569 >= 0.0001
+Iteration 101 (max 500)
+   eps = 0.00642 >= 0.0001
+Iteration 102 (max 500)
+   eps = 0.006284 >= 0.0001
+Iteration 103 (max 500)
+   eps = 0.006135 >= 0.0001
+Iteration 104 (max 500)
+   eps = 0.006001 >= 0.0001
+Iteration 105 (max 500)
+   eps = 0.005874 >= 0.0001
+Iteration 106 (max 500)
+   eps = 0.00575 >= 0.0001
+Iteration 107 (max 500)
+   eps = 0.005637 >= 0.0001
+Iteration 108 (max 500)
+   eps = 0.005515 >= 0.0001
+Iteration 109 (max 500)
+   eps = 0.005385 >= 0.0001
+Iteration 110 (max 500)
+   eps = 0.005258 >= 0.0001
+Iteration 111 (max 500)
+   eps = 0.005122 >= 0.0001
+Iteration 112 (max 500)
+   eps = 0.004997 >= 0.0001
+Iteration 113 (max 500)
+   eps = 0.004894 >= 0.0001
+Iteration 114 (max 500)
+   eps = 0.004797 >= 0.0001
+Iteration 115 (max 500)
+   eps = 0.00469 >= 0.0001
+Iteration 116 (max 500)
+   eps = 0.004585 >= 0.0001
+Iteration 117 (max 500)
+   eps = 0.004471 >= 0.0001
+Iteration 118 (max 500)
+   eps = 0.004361 >= 0.0001
+Iteration 119 (max 500)
+   eps = 0.004263 >= 0.0001
+Iteration 120 (max 500)
+   eps = 0.004171 >= 0.0001
+Iteration 121 (max 500)
+   eps = 0.004087 >= 0.0001
+Iteration 122 (max 500)
+   eps = 0.004002 >= 0.0001
+Iteration 123 (max 500)
+   eps = 0.003916 >= 0.0001
+Iteration 124 (max 500)
+   eps = 0.003828 >= 0.0001
+Iteration 125 (max 500)
+   eps = 0.003738 >= 0.0001
+Iteration 126 (max 500)
+   eps = 0.003648 >= 0.0001
+Iteration 127 (max 500)
+   eps = 0.003551 >= 0.0001
+Iteration 128 (max 500)
+   eps = 0.003454 >= 0.0001
+Iteration 129 (max 500)
+   eps = 0.003369 >= 0.0001
+Iteration 130 (max 500)
+   eps = 0.003292 >= 0.0001
+Iteration 131 (max 500)
+   eps = 0.003219 >= 0.0001
+Iteration 132 (max 500)
+   eps = 0.003148 >= 0.0001
+Iteration 133 (max 500)
+   eps = 0.003079 >= 0.0001
+Iteration 134 (max 500)
+   eps = 0.003006 >= 0.0001
+Iteration 135 (max 500)
+   eps = 0.002932 >= 0.0001
+Iteration 136 (max 500)
+   eps = 0.00286 >= 0.0001
+Iteration 137 (max 500)
+   eps = 0.00279 >= 0.0001
+Iteration 138 (max 500)
+   eps = 0.002725 >= 0.0001
+Iteration 139 (max 500)
+   eps = 0.002661 >= 0.0001
+Iteration 140 (max 500)
+   eps = 0.002593 >= 0.0001
+Iteration 141 (max 500)
+   eps = 0.002531 >= 0.0001
+Iteration 142 (max 500)
+   eps = 0.002472 >= 0.0001
+Iteration 143 (max 500)
+   eps = 0.002415 >= 0.0001
+Iteration 144 (max 500)
+   eps = 0.002354 >= 0.0001
+Iteration 145 (max 500)
+   eps = 0.002294 >= 0.0001
+Iteration 146 (max 500)
+   eps = 0.002233 >= 0.0001
+Iteration 147 (max 500)
+   eps = 0.002178 >= 0.0001
+Iteration 148 (max 500)
+   eps = 0.002125 >= 0.0001
+Iteration 149 (max 500)
+   eps = 0.002074 >= 0.0001
+Iteration 150 (max 500)
+   eps = 0.002026 >= 0.0001
+Iteration 151 (max 500)
+   eps = 0.001976 >= 0.0001
+Iteration 152 (max 500)
+   eps = 0.001928 >= 0.0001
+Iteration 153 (max 500)
+   eps = 0.001881 >= 0.0001
+Iteration 154 (max 500)
+   eps = 0.001837 >= 0.0001
+Iteration 155 (max 500)
+   eps = 0.001791 >= 0.0001
+Iteration 156 (max 500)
+   eps = 0.001745 >= 0.0001
+Iteration 157 (max 500)
+   eps = 0.001701 >= 0.0001
+Iteration 158 (max 500)
+   eps = 0.001659 >= 0.0001
+Iteration 159 (max 500)
+   eps = 0.001619 >= 0.0001
+Iteration 160 (max 500)
+   eps = 0.001581 >= 0.0001
+Iteration 161 (max 500)
+   eps = 0.001546 >= 0.0001
+Iteration 162 (max 500)
+   eps = 0.001509 >= 0.0001
+Iteration 163 (max 500)
+   eps = 0.001475 >= 0.0001
+Iteration 164 (max 500)
+   eps = 0.001439 >= 0.0001
+Iteration 165 (max 500)
+   eps = 0.001401 >= 0.0001
+Iteration 166 (max 500)
+   eps = 0.001361 >= 0.0001
+Iteration 167 (max 500)
+   eps = 0.001328 >= 0.0001
+Iteration 168 (max 500)
+   eps = 0.001298 >= 0.0001
+Iteration 169 (max 500)
+   eps = 0.001276 >= 0.0001
+Iteration 170 (max 500)
+   eps = 0.001254 >= 0.0001
+Iteration 171 (max 500)
+   eps = 0.001228 >= 0.0001
+Iteration 172 (max 500)
+   eps = 0.001197 >= 0.0001
+Iteration 173 (max 500)
+   eps = 0.001162 >= 0.0001
+Iteration 174 (max 500)
+   eps = 0.001133 >= 0.0001
+Iteration 175 (max 500)
+   eps = 0.001104 >= 0.0001
+Iteration 176 (max 500)
+   eps = 0.001072 >= 0.0001
+Iteration 177 (max 500)
+   eps = 0.001042 >= 0.0001
+Iteration 178 (max 500)
+   eps = 0.001013 >= 0.0001
+Iteration 179 (max 500)
+   eps = 0.000987 >= 0.0001
+Iteration 180 (max 500)
+   eps = 0.000959 >= 0.0001
+Iteration 181 (max 500)
+   eps = 0.000932 >= 0.0001
+Iteration 182 (max 500)
+   eps = 0.000907 >= 0.0001
+Iteration 183 (max 500)
+   eps = 0.000883 >= 0.0001
+Iteration 184 (max 500)
+   eps = 0.000859 >= 0.0001
+Iteration 185 (max 500)
+   eps = 0.000836 >= 0.0001
+Iteration 186 (max 500)
+   eps = 0.000816 >= 0.0001
+Iteration 187 (max 500)
+   eps = 0.000797 >= 0.0001
+Iteration 188 (max 500)
+   eps = 0.000778 >= 0.0001
+Iteration 189 (max 500)
+   eps = 0.00076 >= 0.0001
+Iteration 190 (max 500)
+   eps = 0.000742 >= 0.0001
+Iteration 191 (max 500)
+   eps = 0.000726 >= 0.0001
+Iteration 192 (max 500)
+   eps = 0.000697 >= 0.0001
+Iteration 193 (max 500)
+   eps = 0.000681 >= 0.0001
+Iteration 194 (max 500)
+   eps = 0.000661 >= 0.0001
+Iteration 195 (max 500)
+   eps = 0.000643 >= 0.0001
+Iteration 196 (max 500)
+   eps = 0.000629 >= 0.0001
+Iteration 197 (max 500)
+   eps = 0.000613 >= 0.0001
+Iteration 198 (max 500)
+   eps = 0.000598 >= 0.0001
+Iteration 199 (max 500)
+   eps = 0.000582 >= 0.0001
+Iteration 200 (max 500)
+   eps = 0.000567 >= 0.0001
+Iteration 201 (max 500)
+   eps = 0.000555 >= 0.0001
+Iteration 202 (max 500)
+   eps = 0.000542 >= 0.0001
+Iteration 203 (max 500)
+   eps = 0.000528 >= 0.0001
+Iteration 204 (max 500)
+   eps = 0.000515 >= 0.0001
+Iteration 205 (max 500)
+   eps = 0.000501 >= 0.0001
+Iteration 206 (max 500)
+   eps = 0.000486 >= 0.0001
+Iteration 207 (max 500)
+   eps = 0.000473 >= 0.0001
+Iteration 208 (max 500)
+   eps = 0.000459 >= 0.0001
+Iteration 209 (max 500)
+   eps = 0.000448 >= 0.0001
+Iteration 210 (max 500)
+   eps = 0.000433 >= 0.0001
+Iteration 211 (max 500)
+   eps = 0.000422 >= 0.0001
+Iteration 212 (max 500)
+   eps = 0.000409 >= 0.0001
+Iteration 213 (max 500)
+   eps = 0.0004 >= 0.0001
+Iteration 214 (max 500)
+   eps = 0.000389 >= 0.0001
+Iteration 215 (max 500)
+   eps = 0.000379 >= 0.0001
+Iteration 216 (max 500)
+   eps = 0.00037 >= 0.0001
+Iteration 217 (max 500)
+   eps = 0.000361 >= 0.0001
+Iteration 218 (max 500)
+   eps = 0.000353 >= 0.0001
+Iteration 219 (max 500)
+   eps = 0.000346 >= 0.0001
+Iteration 220 (max 500)
+   eps = 0.000337 >= 0.0001
+Iteration 221 (max 500)
+   eps = 0.000328 >= 0.0001
+Iteration 222 (max 500)
+   eps = 0.000319 >= 0.0001
+Iteration 223 (max 500)
+   eps = 0.00031 >= 0.0001
+Iteration 224 (max 500)
+   eps = 0.000301 >= 0.0001
+Iteration 225 (max 500)
+   eps = 0.000294 >= 0.0001
+Iteration 226 (max 500)
+   eps = 0.000286 >= 0.0001
+Iteration 227 (max 500)
+   eps = 0.000278 >= 0.0001
+Iteration 228 (max 500)
+   eps = 0.000271 >= 0.0001
+Iteration 229 (max 500)
+   eps = 0.000264 >= 0.0001
+Iteration 230 (max 500)
+   eps = 0.000257 >= 0.0001
+Iteration 231 (max 500)
+   eps = 0.00025 >= 0.0001
+Iteration 232 (max 500)
+   eps = 0.000244 >= 0.0001
+Iteration 233 (max 500)
+   eps = 0.000237 >= 0.0001
+Iteration 234 (max 500)
+   eps = 0.000231 >= 0.0001
+Iteration 235 (max 500)
+   eps = 0.000225 >= 0.0001
+Iteration 236 (max 500)
+   eps = 0.000219 >= 0.0001
+Iteration 237 (max 500)
+   eps = 0.000213 >= 0.0001
+Iteration 238 (max 500)
+   eps = 0.000207 >= 0.0001
+Iteration 239 (max 500)
+   eps = 0.000201 >= 0.0001
+Iteration 240 (max 500)
+   eps = 0.000195 >= 0.0001
+Iteration 241 (max 500)
+   eps = 0.00019 >= 0.0001
+Iteration 242 (max 500)
+   eps = 0.000185 >= 0.0001
+Iteration 243 (max 500)
+   eps = 0.00018 >= 0.0001
+Iteration 244 (max 500)
+   eps = 0.000175 >= 0.0001
+Iteration 245 (max 500)
+   eps = 0.000171 >= 0.0001
+Iteration 246 (max 500)
+   eps = 0.000166 >= 0.0001
+Iteration 247 (max 500)
+   eps = 0.000162 >= 0.0001
+Iteration 248 (max 500)
+   eps = 0.000158 >= 0.0001
+Iteration 249 (max 500)
+   eps = 0.000154 >= 0.0001
+Iteration 250 (max 500)
+   eps = 0.00015 >= 0.0001
+Iteration 251 (max 500)
+   eps = 0.000145 >= 0.0001
+Iteration 252 (max 500)
+   eps = 0.000141 >= 0.0001
+Iteration 253 (max 500)
+   eps = 0.000137 >= 0.0001
+Iteration 254 (max 500)
+   eps = 0.000134 >= 0.0001
+Iteration 255 (max 500)
+   eps = 0.00013 >= 0.0001
+Iteration 256 (max 500)
+   eps = 0.000126 >= 0.0001
+Iteration 257 (max 500)
+   eps = 0.000123 >= 0.0001
+Iteration 258 (max 500)
+   eps = 0.00012 >= 0.0001
+Iteration 259 (max 500)
+   eps = 0.000117 >= 0.0001
+Iteration 260 (max 500)
+   eps = 0.000114 >= 0.0001
+Iteration 261 (max 500)
+   eps = 0.00011 >= 0.0001
+Iteration 262 (max 500)
+   eps = 0.000107 >= 0.0001
+Iteration 263 (max 500)
+   eps = 0.000104 >= 0.0001
+Iteration 264 (max 500)
+   eps = 0.000101 >= 0.0001
+Iteration 265 (max 500)
+Time spent by the wind speed solver: 15.999918460845947 s
+Rotates geometries from -45.0 degrees
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Process 3857095: Successfully ran URock for tile output 'wind_field_raw_tile_6'.
+Process 3857095: Elapsed time for URock ('wind_field_raw_tile_6'): 91.95 seconds.
+[Master] Process 3857095 - Tile 6: Finished processing.
+[Master] 3857095: exit signal
+Info: Debuffered '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_6_urock_raw_outputs/z1_5/wind_field_raw_tile_6WS.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output/urock_wind_field_tile_6WS.tif' (original extent: (234382.59099838723, 901732.4833440109, 234642.58635222574, 902132.4833440109)).
+Connecting to database
+	->/tmp/URock_2025-12-21T164742fceb9bd5-e684-4058-96a7-4406b5622d7d/myDbH2
+/storage/home/hcoda1/4/hyu483/qgis_332/profiles/default/python/plugins/processing_umep/functions/URock/h2gis-standalone/h2gis-dist-2.2.3.jar
+Connected!
+
+Spatial functions added!
+
+Load input data
+Load table 'build_pre_srid_20251221164749'
+Load table 'veg_pre_srid_20251221164749'
+Creates blocks and stacked blocks
+Rotates geometries from 45.0 degrees
+Identify block base height and block cavity base
+Calculates obstacle properties
+Calculates zone properties
+Initializes upwind facades
+Update upwind facades base height
+Initializes downwind facades
+Calculates study area properties
+Roughness zone properties are:
+
+                                 - z0: 0.95755556071527
+                                 - d: 3.63111667994615
+                                 - Hr: 13.083511231902683
+                                 - H_ob_max: 56
+                                 - lambda_f: 0.07318796489281697
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates displacement zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates cavity and wake zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates street canyon zones
+Rotates geometries from -45.0 degrees
+Creates rooftop zones (perpendicular and corner)
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates built-up and open vegetation zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Identify the buildings concerned by the impacted zone chosen by the user
+Creates the grid of points
+Affects each grid point to a building Rockle zone and calculates needed 
+          variables for 3D wind speed
+Affects each grid point to a vegetation Rockle zone and calculates 
+          needed variables for 3D wind speed
+Remove some of the Röckle zone points
+Creates backward zones
+Calculates the 3D wind speed factor value for each point of each BUILDING zone
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Calculates the 3D wind speed factor value for each point of each VEGETATION zone
+Rotates geometries from -45.0 degrees
+Deals with superimposition (keeps only 1 value per 3D point)
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Rotates geometries from -45.0 degrees
+Identify grid points intersecting buildings
+Set the initial 3D wind speed field
+Time spent for wind speed initialization: 43.972172021865845 s
+Shape: (185, 243, 28) - Nb cells: 1258740
+Start to apply the wind solver
+Iteration 1 (max 500)
+   eps = 0.536602 >= 0.0001
+Iteration 2 (max 500)
+   eps = 0.355521 >= 0.0001
+Iteration 3 (max 500)
+   eps = 0.285813 >= 0.0001
+Iteration 4 (max 500)
+   eps = 0.239846 >= 0.0001
+Iteration 5 (max 500)
+   eps = 0.20494 >= 0.0001
+Iteration 6 (max 500)
+   eps = 0.177284 >= 0.0001
+Iteration 7 (max 500)
+   eps = 0.153945 >= 0.0001
+Iteration 8 (max 500)
+   eps = 0.135136 >= 0.0001
+Iteration 9 (max 500)
+   eps = 0.120078 >= 0.0001
+Iteration 10 (max 500)
+   eps = 0.108403 >= 0.0001
+Iteration 11 (max 500)
+   eps = 0.098899 >= 0.0001
+Iteration 12 (max 500)
+   eps = 0.090776 >= 0.0001
+Iteration 13 (max 500)
+   eps = 0.084074 >= 0.0001
+Iteration 14 (max 500)
+   eps = 0.078413 >= 0.0001
+Iteration 15 (max 500)
+   eps = 0.073421 >= 0.0001
+Iteration 16 (max 500)
+   eps = 0.069142 >= 0.0001
+Iteration 17 (max 500)
+   eps = 0.065379 >= 0.0001
+Iteration 18 (max 500)
+   eps = 0.06194 >= 0.0001
+Iteration 19 (max 500)
+   eps = 0.059166 >= 0.0001
+Iteration 20 (max 500)
+   eps = 0.05638 >= 0.0001
+Iteration 21 (max 500)
+   eps = 0.054417 >= 0.0001
+Iteration 22 (max 500)
+   eps = 0.05186 >= 0.0001
+Iteration 23 (max 500)
+   eps = 0.050211 >= 0.0001
+Iteration 24 (max 500)
+   eps = 0.048596 >= 0.0001
+Iteration 25 (max 500)
+   eps = 0.046578 >= 0.0001
+Iteration 26 (max 500)
+   eps = 0.053635 >= 0.0001
+Iteration 27 (max 500)
+   eps = 0.046843 >= 0.0001
+Iteration 28 (max 500)
+   eps = 0.043131 >= 0.0001
+Iteration 29 (max 500)
+   eps = 0.041395 >= 0.0001
+Iteration 30 (max 500)
+   eps = 0.040095 >= 0.0001
+Iteration 31 (max 500)
+   eps = 0.038895 >= 0.0001
+Iteration 32 (max 500)
+   eps = 0.037792 >= 0.0001
+Iteration 33 (max 500)
+   eps = 0.036691 >= 0.0001
+Iteration 34 (max 500)
+   eps = 0.035592 >= 0.0001
+Iteration 35 (max 500)
+   eps = 0.034572 >= 0.0001
+Iteration 36 (max 500)
+   eps = 0.033604 >= 0.0001
+Iteration 37 (max 500)
+   eps = 0.032625 >= 0.0001
+Iteration 38 (max 500)
+   eps = 0.031674 >= 0.0001
+Iteration 39 (max 500)
+   eps = 0.030808 >= 0.0001
+Iteration 40 (max 500)
+   eps = 0.029997 >= 0.0001
+Iteration 41 (max 500)
+   eps = 0.029238 >= 0.0001
+Iteration 42 (max 500)
+   eps = 0.028517 >= 0.0001
+Iteration 43 (max 500)
+   eps = 0.027828 >= 0.0001
+Iteration 44 (max 500)
+   eps = 0.02721 >= 0.0001
+Iteration 45 (max 500)
+   eps = 0.026669 >= 0.0001
+Iteration 46 (max 500)
+   eps = 0.026094 >= 0.0001
+Iteration 47 (max 500)
+   eps = 0.02559 >= 0.0001
+Iteration 48 (max 500)
+   eps = 0.025064 >= 0.0001
+Iteration 49 (max 500)
+   eps = 0.024544 >= 0.0001
+Iteration 50 (max 500)
+   eps = 0.024024 >= 0.0001
+Iteration 51 (max 500)
+   eps = 0.023497 >= 0.0001
+Iteration 52 (max 500)
+   eps = 0.023116 >= 0.0001
+Iteration 53 (max 500)
+   eps = 0.022577 >= 0.0001
+Iteration 54 (max 500)
+   eps = 0.022079 >= 0.0001
+Iteration 55 (max 500)
+   eps = 0.021613 >= 0.0001
+Iteration 56 (max 500)
+   eps = 0.021168 >= 0.0001
+Iteration 57 (max 500)
+   eps = 0.020767 >= 0.0001
+Iteration 58 (max 500)
+   eps = 0.020289 >= 0.0001
+Iteration 59 (max 500)
+   eps = 0.019847 >= 0.0001
+Iteration 60 (max 500)
+   eps = 0.019408 >= 0.0001
+Iteration 61 (max 500)
+   eps = 0.018995 >= 0.0001
+Iteration 62 (max 500)
+   eps = 0.018585 >= 0.0001
+Iteration 63 (max 500)
+   eps = 0.018191 >= 0.0001
+Iteration 64 (max 500)
+   eps = 0.017774 >= 0.0001
+Iteration 65 (max 500)
+   eps = 0.017394 >= 0.0001
+Iteration 66 (max 500)
+   eps = 0.017037 >= 0.0001
+Iteration 67 (max 500)
+   eps = 0.016707 >= 0.0001
+Iteration 68 (max 500)
+   eps = 0.016372 >= 0.0001
+Iteration 69 (max 500)
+   eps = 0.016082 >= 0.0001
+Iteration 70 (max 500)
+   eps = 0.015749 >= 0.0001
+Iteration 71 (max 500)
+   eps = 0.015416 >= 0.0001
+Iteration 72 (max 500)
+   eps = 0.015062 >= 0.0001
+Iteration 73 (max 500)
+   eps = 0.014731 >= 0.0001
+Iteration 74 (max 500)
+   eps = 0.014398 >= 0.0001
+Iteration 75 (max 500)
+   eps = 0.014072 >= 0.0001
+Iteration 76 (max 500)
+   eps = 0.01374 >= 0.0001
+Iteration 77 (max 500)
+   eps = 0.013409 >= 0.0001
+Iteration 78 (max 500)
+   eps = 0.013077 >= 0.0001
+Iteration 79 (max 500)
+   eps = 0.012753 >= 0.0001
+Iteration 80 (max 500)
+   eps = 0.012447 >= 0.0001
+Iteration 81 (max 500)
+   eps = 0.012148 >= 0.0001
+Iteration 82 (max 500)
+   eps = 0.011859 >= 0.0001
+Iteration 83 (max 500)
+   eps = 0.011576 >= 0.0001
+Iteration 84 (max 500)
+   eps = 0.011327 >= 0.0001
+Iteration 85 (max 500)
+   eps = 0.011108 >= 0.0001
+Iteration 86 (max 500)
+   eps = 0.01087 >= 0.0001
+Iteration 87 (max 500)
+   eps = 0.01061 >= 0.0001
+Iteration 88 (max 500)
+   eps = 0.01033 >= 0.0001
+Iteration 89 (max 500)
+   eps = 0.010096 >= 0.0001
+Iteration 90 (max 500)
+   eps = 0.009892 >= 0.0001
+Iteration 91 (max 500)
+   eps = 0.00968 >= 0.0001
+Iteration 92 (max 500)
+   eps = 0.009488 >= 0.0001
+Iteration 93 (max 500)
+   eps = 0.009237 >= 0.0001
+Iteration 94 (max 500)
+   eps = 0.008998 >= 0.0001
+Iteration 95 (max 500)
+   eps = 0.008782 >= 0.0001
+Iteration 96 (max 500)
+   eps = 0.008584 >= 0.0001
+Iteration 97 (max 500)
+   eps = 0.008388 >= 0.0001
+Iteration 98 (max 500)
+   eps = 0.008194 >= 0.0001
+Iteration 99 (max 500)
+   eps = 0.008008 >= 0.0001
+Iteration 100 (max 500)
+   eps = 0.007823 >= 0.0001
+Iteration 101 (max 500)
+   eps = 0.007644 >= 0.0001
+Iteration 102 (max 500)
+   eps = 0.007471 >= 0.0001
+Iteration 103 (max 500)
+   eps = 0.007282 >= 0.0001
+Iteration 104 (max 500)
+   eps = 0.0071 >= 0.0001
+Iteration 105 (max 500)
+   eps = 0.006924 >= 0.0001
+Iteration 106 (max 500)
+   eps = 0.006749 >= 0.0001
+Iteration 107 (max 500)
+   eps = 0.006582 >= 0.0001
+Iteration 108 (max 500)
+   eps = 0.006425 >= 0.0001
+Iteration 109 (max 500)
+   eps = 0.006287 >= 0.0001
+Iteration 110 (max 500)
+   eps = 0.006139 >= 0.0001
+Iteration 111 (max 500)
+   eps = 0.005983 >= 0.0001
+Iteration 112 (max 500)
+   eps = 0.005858 >= 0.0001
+Iteration 113 (max 500)
+   eps = 0.005741 >= 0.0001
+Iteration 114 (max 500)
+   eps = 0.005601 >= 0.0001
+Iteration 115 (max 500)
+   eps = 0.005452 >= 0.0001
+Iteration 116 (max 500)
+   eps = 0.00531 >= 0.0001
+Iteration 117 (max 500)
+   eps = 0.005177 >= 0.0001
+Iteration 118 (max 500)
+   eps = 0.005046 >= 0.0001
+Iteration 119 (max 500)
+   eps = 0.004932 >= 0.0001
+Iteration 120 (max 500)
+   eps = 0.004811 >= 0.0001
+Iteration 121 (max 500)
+   eps = 0.004698 >= 0.0001
+Iteration 122 (max 500)
+   eps = 0.004599 >= 0.0001
+Iteration 123 (max 500)
+   eps = 0.004491 >= 0.0001
+Iteration 124 (max 500)
+   eps = 0.004383 >= 0.0001
+Iteration 125 (max 500)
+   eps = 0.004285 >= 0.0001
+Iteration 126 (max 500)
+   eps = 0.004189 >= 0.0001
+Iteration 127 (max 500)
+   eps = 0.004088 >= 0.0001
+Iteration 128 (max 500)
+   eps = 0.003994 >= 0.0001
+Iteration 129 (max 500)
+   eps = 0.003904 >= 0.0001
+Iteration 130 (max 500)
+   eps = 0.003819 >= 0.0001
+Iteration 131 (max 500)
+   eps = 0.003725 >= 0.0001
+Iteration 132 (max 500)
+   eps = 0.003632 >= 0.0001
+Iteration 133 (max 500)
+   eps = 0.003544 >= 0.0001
+Iteration 134 (max 500)
+   eps = 0.003456 >= 0.0001
+Iteration 135 (max 500)
+   eps = 0.003375 >= 0.0001
+Iteration 136 (max 500)
+   eps = 0.003291 >= 0.0001
+Iteration 137 (max 500)
+   eps = 0.003212 >= 0.0001
+Iteration 138 (max 500)
+   eps = 0.003134 >= 0.0001
+Iteration 139 (max 500)
+   eps = 0.003058 >= 0.0001
+Iteration 140 (max 500)
+   eps = 0.002983 >= 0.0001
+Iteration 141 (max 500)
+   eps = 0.00291 >= 0.0001
+Iteration 142 (max 500)
+   eps = 0.002832 >= 0.0001
+Iteration 143 (max 500)
+   eps = 0.00276 >= 0.0001
+Iteration 144 (max 500)
+   eps = 0.002688 >= 0.0001
+Iteration 145 (max 500)
+   eps = 0.002615 >= 0.0001
+Iteration 146 (max 500)
+   eps = 0.002549 >= 0.0001
+Iteration 147 (max 500)
+   eps = 0.002485 >= 0.0001
+Iteration 148 (max 500)
+   eps = 0.002425 >= 0.0001
+Iteration 149 (max 500)
+   eps = 0.002364 >= 0.0001
+Iteration 150 (max 500)
+   eps = 0.002307 >= 0.0001
+Iteration 151 (max 500)
+   eps = 0.002253 >= 0.0001
+Iteration 152 (max 500)
+   eps = 0.002198 >= 0.0001
+Iteration 153 (max 500)
+   eps = 0.002151 >= 0.0001
+Iteration 154 (max 500)
+   eps = 0.002108 >= 0.0001
+Iteration 155 (max 500)
+   eps = 0.002072 >= 0.0001
+Iteration 156 (max 500)
+   eps = 0.002029 >= 0.0001
+Iteration 157 (max 500)
+   eps = 0.001975 >= 0.0001
+Iteration 158 (max 500)
+   eps = 0.001922 >= 0.0001
+Iteration 159 (max 500)
+   eps = 0.001869 >= 0.0001
+Iteration 160 (max 500)
+   eps = 0.001821 >= 0.0001
+Iteration 161 (max 500)
+   eps = 0.001776 >= 0.0001
+Iteration 162 (max 500)
+   eps = 0.00173 >= 0.0001
+Iteration 163 (max 500)
+   eps = 0.001686 >= 0.0001
+Iteration 164 (max 500)
+   eps = 0.001648 >= 0.0001
+Iteration 165 (max 500)
+   eps = 0.001609 >= 0.0001
+Iteration 166 (max 500)
+   eps = 0.001572 >= 0.0001
+Iteration 167 (max 500)
+   eps = 0.001534 >= 0.0001
+Iteration 168 (max 500)
+   eps = 0.001497 >= 0.0001
+Iteration 169 (max 500)
+   eps = 0.00146 >= 0.0001
+Iteration 170 (max 500)
+   eps = 0.001425 >= 0.0001
+Iteration 171 (max 500)
+   eps = 0.001387 >= 0.0001
+Iteration 172 (max 500)
+   eps = 0.001353 >= 0.0001
+Iteration 173 (max 500)
+   eps = 0.001315 >= 0.0001
+Iteration 174 (max 500)
+   eps = 0.001281 >= 0.0001
+Iteration 175 (max 500)
+   eps = 0.001249 >= 0.0001
+Iteration 176 (max 500)
+   eps = 0.001219 >= 0.0001
+Iteration 177 (max 500)
+   eps = 0.001192 >= 0.0001
+Iteration 178 (max 500)
+   eps = 0.001169 >= 0.0001
+Iteration 179 (max 500)
+   eps = 0.001145 >= 0.0001
+Iteration 180 (max 500)
+   eps = 0.001122 >= 0.0001
+Iteration 181 (max 500)
+   eps = 0.0011 >= 0.0001
+Iteration 182 (max 500)
+   eps = 0.001075 >= 0.0001
+Iteration 183 (max 500)
+   eps = 0.001049 >= 0.0001
+Iteration 184 (max 500)
+   eps = 0.001023 >= 0.0001
+Iteration 185 (max 500)
+   eps = 0.000998 >= 0.0001
+Iteration 186 (max 500)
+   eps = 0.000973 >= 0.0001
+Iteration 187 (max 500)
+   eps = 0.000947 >= 0.0001
+Iteration 188 (max 500)
+   eps = 0.000927 >= 0.0001
+Iteration 189 (max 500)
+   eps = 0.000903 >= 0.0001
+Iteration 190 (max 500)
+   eps = 0.00088 >= 0.0001
+Iteration 191 (max 500)
+   eps = 0.000855 >= 0.0001
+Iteration 192 (max 500)
+   eps = 0.000836 >= 0.0001
+Iteration 193 (max 500)
+   eps = 0.000816 >= 0.0001
+Iteration 194 (max 500)
+   eps = 0.000796 >= 0.0001
+Iteration 195 (max 500)
+   eps = 0.000788 >= 0.0001
+Iteration 196 (max 500)
+   eps = 0.000761 >= 0.0001
+Iteration 197 (max 500)
+   eps = 0.000744 >= 0.0001
+Iteration 198 (max 500)
+   eps = 0.000726 >= 0.0001
+Iteration 199 (max 500)
+   eps = 0.000711 >= 0.0001
+Iteration 200 (max 500)
+   eps = 0.000695 >= 0.0001
+Iteration 201 (max 500)
+   eps = 0.000675 >= 0.0001
+Iteration 202 (max 500)
+   eps = 0.000663 >= 0.0001
+Iteration 203 (max 500)
+   eps = 0.00065 >= 0.0001
+Iteration 204 (max 500)
+   eps = 0.000628 >= 0.0001
+Iteration 205 (max 500)
+   eps = 0.000619 >= 0.0001
+Iteration 206 (max 500)
+   eps = 0.000604 >= 0.0001
+Iteration 207 (max 500)
+   eps = 0.000586 >= 0.0001
+Iteration 208 (max 500)
+   eps = 0.000572 >= 0.0001
+Iteration 209 (max 500)
+   eps = 0.000557 >= 0.0001
+Iteration 210 (max 500)
+   eps = 0.000542 >= 0.0001
+Iteration 211 (max 500)
+   eps = 0.000526 >= 0.0001
+Iteration 212 (max 500)
+   eps = 0.000512 >= 0.0001
+Iteration 213 (max 500)
+   eps = 0.000501 >= 0.0001
+Iteration 214 (max 500)
+   eps = 0.000491 >= 0.0001
+Iteration 215 (max 500)
+   eps = 0.000479 >= 0.0001
+Iteration 216 (max 500)
+   eps = 0.000471 >= 0.0001
+Iteration 217 (max 500)
+   eps = 0.000462 >= 0.0001
+Iteration 218 (max 500)
+   eps = 0.000451 >= 0.0001
+Iteration 219 (max 500)
+   eps = 0.000439 >= 0.0001
+Iteration 220 (max 500)
+   eps = 0.00043 >= 0.0001
+Iteration 221 (max 500)
+   eps = 0.000419 >= 0.0001
+Iteration 222 (max 500)
+   eps = 0.000407 >= 0.0001
+Iteration 223 (max 500)
+   eps = 0.000395 >= 0.0001
+Iteration 224 (max 500)
+   eps = 0.000387 >= 0.0001
+Iteration 225 (max 500)
+   eps = 0.000375 >= 0.0001
+Iteration 226 (max 500)
+   eps = 0.000363 >= 0.0001
+Iteration 227 (max 500)
+   eps = 0.000355 >= 0.0001
+Iteration 228 (max 500)
+   eps = 0.000346 >= 0.0001
+Iteration 229 (max 500)
+   eps = 0.000336 >= 0.0001
+Iteration 230 (max 500)
+   eps = 0.000328 >= 0.0001
+Iteration 231 (max 500)
+   eps = 0.000319 >= 0.0001
+Iteration 232 (max 500)
+   eps = 0.000312 >= 0.0001
+Iteration 233 (max 500)
+   eps = 0.000304 >= 0.0001
+Iteration 234 (max 500)
+   eps = 0.000296 >= 0.0001
+Iteration 235 (max 500)
+   eps = 0.000289 >= 0.0001
+Iteration 236 (max 500)
+   eps = 0.000282 >= 0.0001
+Iteration 237 (max 500)
+   eps = 0.000276 >= 0.0001
+Iteration 238 (max 500)
+   eps = 0.000269 >= 0.0001
+Iteration 239 (max 500)
+   eps = 0.000263 >= 0.0001
+Iteration 240 (max 500)
+   eps = 0.000259 >= 0.0001
+Iteration 241 (max 500)
+   eps = 0.000253 >= 0.0001
+Iteration 242 (max 500)
+   eps = 0.000246 >= 0.0001
+Iteration 243 (max 500)
+   eps = 0.00024 >= 0.0001
+Iteration 244 (max 500)
+   eps = 0.000235 >= 0.0001
+Iteration 245 (max 500)
+   eps = 0.000229 >= 0.0001
+Iteration 246 (max 500)
+   eps = 0.000223 >= 0.0001
+Iteration 247 (max 500)
+   eps = 0.000218 >= 0.0001
+Iteration 248 (max 500)
+   eps = 0.000214 >= 0.0001
+Iteration 249 (max 500)
+   eps = 0.000209 >= 0.0001
+Iteration 250 (max 500)
+   eps = 0.000204 >= 0.0001
+Iteration 251 (max 500)
+   eps = 0.0002 >= 0.0001
+Iteration 252 (max 500)
+   eps = 0.000195 >= 0.0001
+Iteration 253 (max 500)
+   eps = 0.000191 >= 0.0001
+Iteration 254 (max 500)
+   eps = 0.000186 >= 0.0001
+Iteration 255 (max 500)
+   eps = 0.000182 >= 0.0001
+Iteration 256 (max 500)
+   eps = 0.000177 >= 0.0001
+Iteration 257 (max 500)
+   eps = 0.000173 >= 0.0001
+Iteration 258 (max 500)
+   eps = 0.000169 >= 0.0001
+Iteration 259 (max 500)
+   eps = 0.000165 >= 0.0001
+Iteration 260 (max 500)
+   eps = 0.00016 >= 0.0001
+Iteration 261 (max 500)
+   eps = 0.000156 >= 0.0001
+Iteration 262 (max 500)
+   eps = 0.000152 >= 0.0001
+Iteration 263 (max 500)
+   eps = 0.000148 >= 0.0001
+Iteration 264 (max 500)
+   eps = 0.000144 >= 0.0001
+Iteration 265 (max 500)
+   eps = 0.000141 >= 0.0001
+Iteration 266 (max 500)
+   eps = 0.000137 >= 0.0001
+Iteration 267 (max 500)
+   eps = 0.000133 >= 0.0001
+Iteration 268 (max 500)
+   eps = 0.00013 >= 0.0001
+Iteration 269 (max 500)
+   eps = 0.000127 >= 0.0001
+Iteration 270 (max 500)
+   eps = 0.000124 >= 0.0001
+Iteration 271 (max 500)
+   eps = 0.000121 >= 0.0001
+Iteration 272 (max 500)
+   eps = 0.000118 >= 0.0001
+Iteration 273 (max 500)
+   eps = 0.000116 >= 0.0001
+Iteration 274 (max 500)
+   eps = 0.000114 >= 0.0001
+Iteration 275 (max 500)
+   eps = 0.000111 >= 0.0001
+Iteration 276 (max 500)
+   eps = 0.000109 >= 0.0001
+Iteration 277 (max 500)
+   eps = 0.000107 >= 0.0001
+Iteration 278 (max 500)
+   eps = 0.000104 >= 0.0001
+Iteration 279 (max 500)
+   eps = 0.000102 >= 0.0001
+Iteration 280 (max 500)
+Time spent by the wind speed solver: 23.283278942108154 s
+Rotates geometries from -45.0 degrees
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Process 3857080: Successfully ran URock for tile output 'wind_field_raw_tile_5'.
+Process 3857080: Elapsed time for URock ('wind_field_raw_tile_5'): 98.01 seconds.
+[Master] Process 3857080 - Tile 5: Finished processing.
+[Master] 3857080: exit signal
+Info: Debuffered '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_5_urock_raw_outputs/z1_5/wind_field_raw_tile_5WS.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output/urock_wind_field_tile_5WS.tif' (original extent: (233982.59099838723, 902532.4833440109, 234382.59099838723, 902792.4786978494)).
+Connecting to database
+	->/tmp/URock_2025-12-21T164743d9d29f4b-5ec3-4e25-a49c-618a62493087/myDbH2
+/storage/home/hcoda1/4/hyu483/qgis_332/profiles/default/python/plugins/processing_umep/functions/URock/h2gis-standalone/h2gis-dist-2.2.3.jar
+Connected!
+
+Spatial functions added!
+
+Load input data
+Load table 'build_pre_srid_20251221164748'
+Load table 'veg_pre_srid_20251221164748'
+Creates blocks and stacked blocks
+Rotates geometries from 45.0 degrees
+Identify block base height and block cavity base
+Calculates obstacle properties
+Calculates zone properties
+Initializes upwind facades
+Update upwind facades base height
+Initializes downwind facades
+Calculates study area properties
+Roughness zone properties are:
+
+                                 - z0: 1.7325046374560542
+                                 - d: 8.408857648177692
+                                 - Hr: 11.550030916373695
+                                 - H_ob_max: 95
+                                 - lambda_f: 0.23010764128457267
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates displacement zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates cavity and wake zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates street canyon zones
+Rotates geometries from -45.0 degrees
+Creates rooftop zones (perpendicular and corner)
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates built-up and open vegetation zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Identify the buildings concerned by the impacted zone chosen by the user
+Creates the grid of points
+Affects each grid point to a building Rockle zone and calculates needed 
+          variables for 3D wind speed
+Affects each grid point to a vegetation Rockle zone and calculates 
+          needed variables for 3D wind speed
+Remove some of the Röckle zone points
+Creates backward zones
+Calculates the 3D wind speed factor value for each point of each BUILDING zone
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Calculates the 3D wind speed factor value for each point of each VEGETATION zone
+Rotates geometries from -45.0 degrees
+Deals with superimposition (keeps only 1 value per 3D point)
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Rotates geometries from -45.0 degrees
+Identify grid points intersecting buildings
+Set the initial 3D wind speed field
+Time spent for wind speed initialization: 56.0416202545166 s
+Shape: (181, 211, 43) - Nb cells: 1642213
+Start to apply the wind solver
+Iteration 1 (max 500)
+   eps = 0.645425 >= 0.0001
+Iteration 2 (max 500)
+   eps = 0.404009 >= 0.0001
+Iteration 3 (max 500)
+   eps = 0.307832 >= 0.0001
+Iteration 4 (max 500)
+   eps = 0.249336 >= 0.0001
+Iteration 5 (max 500)
+   eps = 0.205974 >= 0.0001
+Iteration 6 (max 500)
+   eps = 0.174054 >= 0.0001
+Iteration 7 (max 500)
+   eps = 0.150216 >= 0.0001
+Iteration 8 (max 500)
+   eps = 0.131097 >= 0.0001
+Iteration 9 (max 500)
+   eps = 0.115873 >= 0.0001
+Iteration 10 (max 500)
+   eps = 0.103161 >= 0.0001
+Iteration 11 (max 500)
+   eps = 0.0927 >= 0.0001
+Iteration 12 (max 500)
+   eps = 0.084106 >= 0.0001
+Iteration 13 (max 500)
+   eps = 0.076901 >= 0.0001
+Iteration 14 (max 500)
+   eps = 0.070535 >= 0.0001
+Iteration 15 (max 500)
+   eps = 0.064981 >= 0.0001
+Iteration 16 (max 500)
+   eps = 0.060477 >= 0.0001
+Iteration 17 (max 500)
+   eps = 0.056465 >= 0.0001
+Iteration 18 (max 500)
+   eps = 0.052966 >= 0.0001
+Iteration 19 (max 500)
+   eps = 0.049884 >= 0.0001
+Iteration 20 (max 500)
+   eps = 0.04724 >= 0.0001
+Iteration 21 (max 500)
+   eps = 0.044887 >= 0.0001
+Iteration 22 (max 500)
+   eps = 0.042697 >= 0.0001
+Iteration 23 (max 500)
+   eps = 0.040656 >= 0.0001
+Iteration 24 (max 500)
+   eps = 0.03877 >= 0.0001
+Iteration 25 (max 500)
+   eps = 0.037013 >= 0.0001
+Iteration 26 (max 500)
+   eps = 0.035381 >= 0.0001
+Iteration 27 (max 500)
+   eps = 0.033925 >= 0.0001
+Iteration 28 (max 500)
+   eps = 0.032582 >= 0.0001
+Iteration 29 (max 500)
+   eps = 0.031307 >= 0.0001
+Iteration 30 (max 500)
+   eps = 0.030115 >= 0.0001
+Iteration 31 (max 500)
+   eps = 0.02899 >= 0.0001
+Iteration 32 (max 500)
+   eps = 0.027944 >= 0.0001
+Iteration 33 (max 500)
+   eps = 0.02697 >= 0.0001
+Iteration 34 (max 500)
+   eps = 0.026036 >= 0.0001
+Iteration 35 (max 500)
+   eps = 0.025164 >= 0.0001
+Iteration 36 (max 500)
+   eps = 0.024387 >= 0.0001
+Iteration 37 (max 500)
+   eps = 0.023683 >= 0.0001
+Iteration 38 (max 500)
+   eps = 0.023031 >= 0.0001
+Iteration 39 (max 500)
+   eps = 0.022372 >= 0.0001
+Iteration 40 (max 500)
+   eps = 0.021706 >= 0.0001
+Iteration 41 (max 500)
+   eps = 0.021324 >= 0.0001
+Iteration 42 (max 500)
+   eps = 0.020572 >= 0.0001
+Iteration 43 (max 500)
+   eps = 0.019794 >= 0.0001
+Iteration 44 (max 500)
+   eps = 0.019187 >= 0.0001
+Iteration 45 (max 500)
+   eps = 0.018631 >= 0.0001
+Iteration 46 (max 500)
+   eps = 0.01809 >= 0.0001
+Iteration 47 (max 500)
+   eps = 0.017593 >= 0.0001
+Iteration 48 (max 500)
+   eps = 0.017163 >= 0.0001
+Iteration 49 (max 500)
+   eps = 0.016792 >= 0.0001
+Iteration 50 (max 500)
+   eps = 0.016428 >= 0.0001
+Iteration 51 (max 500)
+   eps = 0.016052 >= 0.0001
+Iteration 52 (max 500)
+   eps = 0.015667 >= 0.0001
+Iteration 53 (max 500)
+   eps = 0.015275 >= 0.0001
+Iteration 54 (max 500)
+   eps = 0.014874 >= 0.0001
+Iteration 55 (max 500)
+   eps = 0.014484 >= 0.0001
+Iteration 56 (max 500)
+   eps = 0.014117 >= 0.0001
+Iteration 57 (max 500)
+   eps = 0.013756 >= 0.0001
+Iteration 58 (max 500)
+   eps = 0.013404 >= 0.0001
+Iteration 59 (max 500)
+   eps = 0.013076 >= 0.0001
+Iteration 60 (max 500)
+   eps = 0.012762 >= 0.0001
+Iteration 61 (max 500)
+   eps = 0.012465 >= 0.0001
+Iteration 62 (max 500)
+   eps = 0.012181 >= 0.0001
+Iteration 63 (max 500)
+   eps = 0.0119 >= 0.0001
+Iteration 64 (max 500)
+   eps = 0.011616 >= 0.0001
+Iteration 65 (max 500)
+   eps = 0.011337 >= 0.0001
+Iteration 66 (max 500)
+   eps = 0.011074 >= 0.0001
+Iteration 67 (max 500)
+   eps = 0.01082 >= 0.0001
+Iteration 68 (max 500)
+   eps = 0.010575 >= 0.0001
+Iteration 69 (max 500)
+   eps = 0.010341 >= 0.0001
+Iteration 70 (max 500)
+   eps = 0.010115 >= 0.0001
+Iteration 71 (max 500)
+   eps = 0.009895 >= 0.0001
+Iteration 72 (max 500)
+   eps = 0.009683 >= 0.0001
+Iteration 73 (max 500)
+   eps = 0.009474 >= 0.0001
+Iteration 74 (max 500)
+   eps = 0.009265 >= 0.0001
+Iteration 75 (max 500)
+   eps = 0.009066 >= 0.0001
+Iteration 76 (max 500)
+   eps = 0.008876 >= 0.0001
+Iteration 77 (max 500)
+   eps = 0.008691 >= 0.0001
+Iteration 78 (max 500)
+   eps = 0.008525 >= 0.0001
+Iteration 79 (max 500)
+   eps = 0.008372 >= 0.0001
+Iteration 80 (max 500)
+   eps = 0.008216 >= 0.0001
+Iteration 81 (max 500)
+   eps = 0.008061 >= 0.0001
+Iteration 82 (max 500)
+   eps = 0.00791 >= 0.0001
+Iteration 83 (max 500)
+   eps = 0.007763 >= 0.0001
+Iteration 84 (max 500)
+   eps = 0.007604 >= 0.0001
+Iteration 85 (max 500)
+   eps = 0.00744 >= 0.0001
+Iteration 86 (max 500)
+   eps = 0.007278 >= 0.0001
+Iteration 87 (max 500)
+   eps = 0.007124 >= 0.0001
+Iteration 88 (max 500)
+   eps = 0.006952 >= 0.0001
+Iteration 89 (max 500)
+   eps = 0.00679 >= 0.0001
+Iteration 90 (max 500)
+   eps = 0.006627 >= 0.0001
+Iteration 91 (max 500)
+   eps = 0.006483 >= 0.0001
+Iteration 92 (max 500)
+   eps = 0.006333 >= 0.0001
+Iteration 93 (max 500)
+   eps = 0.006183 >= 0.0001
+Iteration 94 (max 500)
+   eps = 0.006054 >= 0.0001
+Iteration 95 (max 500)
+   eps = 0.005923 >= 0.0001
+Iteration 96 (max 500)
+   eps = 0.005819 >= 0.0001
+Iteration 97 (max 500)
+   eps = 0.005719 >= 0.0001
+Iteration 98 (max 500)
+   eps = 0.005615 >= 0.0001
+Iteration 99 (max 500)
+   eps = 0.005517 >= 0.0001
+Iteration 100 (max 500)
+   eps = 0.005412 >= 0.0001
+Iteration 101 (max 500)
+   eps = 0.005303 >= 0.0001
+Iteration 102 (max 500)
+   eps = 0.005191 >= 0.0001
+Iteration 103 (max 500)
+   eps = 0.005086 >= 0.0001
+Iteration 104 (max 500)
+   eps = 0.004983 >= 0.0001
+Iteration 105 (max 500)
+   eps = 0.00488 >= 0.0001
+Iteration 106 (max 500)
+   eps = 0.004773 >= 0.0001
+Iteration 107 (max 500)
+   eps = 0.004668 >= 0.0001
+Iteration 108 (max 500)
+   eps = 0.004575 >= 0.0001
+Iteration 109 (max 500)
+   eps = 0.004485 >= 0.0001
+Iteration 110 (max 500)
+   eps = 0.004394 >= 0.0001
+Iteration 111 (max 500)
+   eps = 0.004307 >= 0.0001
+Iteration 112 (max 500)
+   eps = 0.004228 >= 0.0001
+Iteration 113 (max 500)
+   eps = 0.004146 >= 0.0001
+Iteration 114 (max 500)
+   eps = 0.004062 >= 0.0001
+Iteration 115 (max 500)
+   eps = 0.003983 >= 0.0001
+Iteration 116 (max 500)
+   eps = 0.003904 >= 0.0001
+Iteration 117 (max 500)
+   eps = 0.003829 >= 0.0001
+Iteration 118 (max 500)
+   eps = 0.00376 >= 0.0001
+Iteration 119 (max 500)
+   eps = 0.003685 >= 0.0001
+Iteration 120 (max 500)
+   eps = 0.003612 >= 0.0001
+Iteration 121 (max 500)
+   eps = 0.003538 >= 0.0001
+Iteration 122 (max 500)
+   eps = 0.003468 >= 0.0001
+Iteration 123 (max 500)
+   eps = 0.003399 >= 0.0001
+Iteration 124 (max 500)
+   eps = 0.003332 >= 0.0001
+Iteration 125 (max 500)
+   eps = 0.003264 >= 0.0001
+Iteration 126 (max 500)
+   eps = 0.003208 >= 0.0001
+Iteration 127 (max 500)
+   eps = 0.003152 >= 0.0001
+Iteration 128 (max 500)
+   eps = 0.003084 >= 0.0001
+Iteration 129 (max 500)
+   eps = 0.003021 >= 0.0001
+Iteration 130 (max 500)
+   eps = 0.002957 >= 0.0001
+Iteration 131 (max 500)
+   eps = 0.002899 >= 0.0001
+Iteration 132 (max 500)
+   eps = 0.002835 >= 0.0001
+Iteration 133 (max 500)
+   eps = 0.00277 >= 0.0001
+Iteration 134 (max 500)
+   eps = 0.002707 >= 0.0001
+Iteration 135 (max 500)
+   eps = 0.002645 >= 0.0001
+Iteration 136 (max 500)
+   eps = 0.002594 >= 0.0001
+Iteration 137 (max 500)
+   eps = 0.002544 >= 0.0001
+Iteration 138 (max 500)
+   eps = 0.002497 >= 0.0001
+Iteration 139 (max 500)
+   eps = 0.002449 >= 0.0001
+Iteration 140 (max 500)
+   eps = 0.002404 >= 0.0001
+Iteration 141 (max 500)
+   eps = 0.002357 >= 0.0001
+Iteration 142 (max 500)
+   eps = 0.002311 >= 0.0001
+Iteration 143 (max 500)
+   eps = 0.002269 >= 0.0001
+Iteration 144 (max 500)
+   eps = 0.00222 >= 0.0001
+Iteration 145 (max 500)
+   eps = 0.00218 >= 0.0001
+Iteration 146 (max 500)
+   eps = 0.002131 >= 0.0001
+Iteration 147 (max 500)
+   eps = 0.002088 >= 0.0001
+Iteration 148 (max 500)
+   eps = 0.002037 >= 0.0001
+Iteration 149 (max 500)
+   eps = 0.001994 >= 0.0001
+Iteration 150 (max 500)
+   eps = 0.001949 >= 0.0001
+Iteration 151 (max 500)
+   eps = 0.001909 >= 0.0001
+Iteration 152 (max 500)
+   eps = 0.001871 >= 0.0001
+Iteration 153 (max 500)
+   eps = 0.001831 >= 0.0001
+Iteration 154 (max 500)
+   eps = 0.001794 >= 0.0001
+Iteration 155 (max 500)
+   eps = 0.001757 >= 0.0001
+Iteration 156 (max 500)
+   eps = 0.001721 >= 0.0001
+Iteration 157 (max 500)
+   eps = 0.001683 >= 0.0001
+Iteration 158 (max 500)
+   eps = 0.001649 >= 0.0001
+Iteration 159 (max 500)
+   eps = 0.001617 >= 0.0001
+Iteration 160 (max 500)
+   eps = 0.001591 >= 0.0001
+Iteration 161 (max 500)
+   eps = 0.001565 >= 0.0001
+Iteration 162 (max 500)
+   eps = 0.001521 >= 0.0001
+Iteration 163 (max 500)
+   eps = 0.001482 >= 0.0001
+Iteration 164 (max 500)
+   eps = 0.001446 >= 0.0001
+Iteration 165 (max 500)
+   eps = 0.001413 >= 0.0001
+Iteration 166 (max 500)
+   eps = 0.001383 >= 0.0001
+Iteration 167 (max 500)
+   eps = 0.001354 >= 0.0001
+Iteration 168 (max 500)
+   eps = 0.001324 >= 0.0001
+Iteration 169 (max 500)
+   eps = 0.001297 >= 0.0001
+Iteration 170 (max 500)
+   eps = 0.001272 >= 0.0001
+Iteration 171 (max 500)
+   eps = 0.001248 >= 0.0001
+Iteration 172 (max 500)
+   eps = 0.001222 >= 0.0001
+Iteration 173 (max 500)
+   eps = 0.001196 >= 0.0001
+Iteration 174 (max 500)
+   eps = 0.00117 >= 0.0001
+Iteration 175 (max 500)
+   eps = 0.001145 >= 0.0001
+Iteration 176 (max 500)
+   eps = 0.00112 >= 0.0001
+Iteration 177 (max 500)
+   eps = 0.001095 >= 0.0001
+Iteration 178 (max 500)
+   eps = 0.00107 >= 0.0001
+Iteration 179 (max 500)
+   eps = 0.001047 >= 0.0001
+Iteration 180 (max 500)
+   eps = 0.001024 >= 0.0001
+Iteration 181 (max 500)
+   eps = 0.001001 >= 0.0001
+Iteration 182 (max 500)
+   eps = 0.000979 >= 0.0001
+Iteration 183 (max 500)
+   eps = 0.000959 >= 0.0001
+Iteration 184 (max 500)
+   eps = 0.000938 >= 0.0001
+Iteration 185 (max 500)
+   eps = 0.000917 >= 0.0001
+Iteration 186 (max 500)
+   eps = 0.000896 >= 0.0001
+Iteration 187 (max 500)
+   eps = 0.000876 >= 0.0001
+Iteration 188 (max 500)
+   eps = 0.000856 >= 0.0001
+Iteration 189 (max 500)
+   eps = 0.000836 >= 0.0001
+Iteration 190 (max 500)
+   eps = 0.000817 >= 0.0001
+Iteration 191 (max 500)
+   eps = 0.000799 >= 0.0001
+Iteration 192 (max 500)
+   eps = 0.000783 >= 0.0001
+Iteration 193 (max 500)
+   eps = 0.000765 >= 0.0001
+Iteration 194 (max 500)
+   eps = 0.000747 >= 0.0001
+Iteration 195 (max 500)
+   eps = 0.000731 >= 0.0001
+Iteration 196 (max 500)
+   eps = 0.000715 >= 0.0001
+Iteration 197 (max 500)
+   eps = 0.000698 >= 0.0001
+Iteration 198 (max 500)
+   eps = 0.000682 >= 0.0001
+Iteration 199 (max 500)
+   eps = 0.000667 >= 0.0001
+Iteration 200 (max 500)
+   eps = 0.000654 >= 0.0001
+Iteration 201 (max 500)
+   eps = 0.00064 >= 0.0001
+Iteration 202 (max 500)
+   eps = 0.000626 >= 0.0001
+Iteration 203 (max 500)
+   eps = 0.000612 >= 0.0001
+Iteration 204 (max 500)
+   eps = 0.000598 >= 0.0001
+Iteration 205 (max 500)
+   eps = 0.000586 >= 0.0001
+Iteration 206 (max 500)
+   eps = 0.000573 >= 0.0001
+Iteration 207 (max 500)
+   eps = 0.00056 >= 0.0001
+Iteration 208 (max 500)
+   eps = 0.000547 >= 0.0001
+Iteration 209 (max 500)
+   eps = 0.000534 >= 0.0001
+Iteration 210 (max 500)
+   eps = 0.000522 >= 0.0001
+Iteration 211 (max 500)
+   eps = 0.000511 >= 0.0001
+Iteration 212 (max 500)
+   eps = 0.000499 >= 0.0001
+Iteration 213 (max 500)
+   eps = 0.000488 >= 0.0001
+Iteration 214 (max 500)
+   eps = 0.000477 >= 0.0001
+Iteration 215 (max 500)
+   eps = 0.000466 >= 0.0001
+Iteration 216 (max 500)
+   eps = 0.000455 >= 0.0001
+Iteration 217 (max 500)
+   eps = 0.000444 >= 0.0001
+Iteration 218 (max 500)
+   eps = 0.000434 >= 0.0001
+Iteration 219 (max 500)
+   eps = 0.000423 >= 0.0001
+Iteration 220 (max 500)
+   eps = 0.000413 >= 0.0001
+Iteration 221 (max 500)
+   eps = 0.000404 >= 0.0001
+Iteration 222 (max 500)
+   eps = 0.000395 >= 0.0001
+Iteration 223 (max 500)
+   eps = 0.000386 >= 0.0001
+Iteration 224 (max 500)
+   eps = 0.000377 >= 0.0001
+Iteration 225 (max 500)
+   eps = 0.000369 >= 0.0001
+Iteration 226 (max 500)
+   eps = 0.00036 >= 0.0001
+Iteration 227 (max 500)
+   eps = 0.000352 >= 0.0001
+Iteration 228 (max 500)
+   eps = 0.000345 >= 0.0001
+Iteration 229 (max 500)
+   eps = 0.000337 >= 0.0001
+Iteration 230 (max 500)
+   eps = 0.000329 >= 0.0001
+Iteration 231 (max 500)
+   eps = 0.000322 >= 0.0001
+Iteration 232 (max 500)
+   eps = 0.000314 >= 0.0001
+Iteration 233 (max 500)
+   eps = 0.000307 >= 0.0001
+Iteration 234 (max 500)
+   eps = 0.000299 >= 0.0001
+Iteration 235 (max 500)
+   eps = 0.000292 >= 0.0001
+Iteration 236 (max 500)
+   eps = 0.000284 >= 0.0001
+Iteration 237 (max 500)
+   eps = 0.000277 >= 0.0001
+Iteration 238 (max 500)
+   eps = 0.000271 >= 0.0001
+Iteration 239 (max 500)
+   eps = 0.000264 >= 0.0001
+Iteration 240 (max 500)
+   eps = 0.000258 >= 0.0001
+Iteration 241 (max 500)
+   eps = 0.000252 >= 0.0001
+Iteration 242 (max 500)
+   eps = 0.000246 >= 0.0001
+Iteration 243 (max 500)
+   eps = 0.00024 >= 0.0001
+Iteration 244 (max 500)
+   eps = 0.000233 >= 0.0001
+Iteration 245 (max 500)
+   eps = 0.000228 >= 0.0001
+Iteration 246 (max 500)
+   eps = 0.000222 >= 0.0001
+Iteration 247 (max 500)
+   eps = 0.000216 >= 0.0001
+Iteration 248 (max 500)
+   eps = 0.000211 >= 0.0001
+Iteration 249 (max 500)
+   eps = 0.000206 >= 0.0001
+Iteration 250 (max 500)
+   eps = 0.000201 >= 0.0001
+Iteration 251 (max 500)
+   eps = 0.000196 >= 0.0001
+Iteration 252 (max 500)
+   eps = 0.000191 >= 0.0001
+Iteration 253 (max 500)
+   eps = 0.000186 >= 0.0001
+Iteration 254 (max 500)
+   eps = 0.000181 >= 0.0001
+Iteration 255 (max 500)
+   eps = 0.000177 >= 0.0001
+Iteration 256 (max 500)
+   eps = 0.000172 >= 0.0001
+Iteration 257 (max 500)
+   eps = 0.000168 >= 0.0001
+Iteration 258 (max 500)
+   eps = 0.000163 >= 0.0001
+Iteration 259 (max 500)
+   eps = 0.000158 >= 0.0001
+Iteration 260 (max 500)
+   eps = 0.000154 >= 0.0001
+Iteration 261 (max 500)
+   eps = 0.00015 >= 0.0001
+Iteration 262 (max 500)
+   eps = 0.000146 >= 0.0001
+Iteration 263 (max 500)
+   eps = 0.000142 >= 0.0001
+Iteration 264 (max 500)
+   eps = 0.000138 >= 0.0001
+Iteration 265 (max 500)
+   eps = 0.000135 >= 0.0001
+Iteration 266 (max 500)
+   eps = 0.000131 >= 0.0001
+Iteration 267 (max 500)
+   eps = 0.000127 >= 0.0001
+Iteration 268 (max 500)
+   eps = 0.000124 >= 0.0001
+Iteration 269 (max 500)
+   eps = 0.00012 >= 0.0001
+Iteration 270 (max 500)
+   eps = 0.000117 >= 0.0001
+Iteration 271 (max 500)
+   eps = 0.000114 >= 0.0001
+Iteration 272 (max 500)
+   eps = 0.00011 >= 0.0001
+Iteration 273 (max 500)
+   eps = 0.000107 >= 0.0001
+Iteration 274 (max 500)
+   eps = 0.000104 >= 0.0001
+Iteration 275 (max 500)
+   eps = 0.000102 >= 0.0001
+Iteration 276 (max 500)
+Time spent by the wind speed solver: 29.10235834121704 s
+Rotates geometries from -45.0 degrees
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Process 3857087: Successfully ran URock for tile output 'wind_field_raw_tile_7'.
+Process 3857087: Elapsed time for URock ('wind_field_raw_tile_7'): 109.17 seconds.
+[Master] Process 3857087 - Tile 7: Finished processing.
+[Master] 3857087: exit signal
+Info: Debuffered '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_7_urock_raw_outputs/z1_5/wind_field_raw_tile_7WS.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output/urock_wind_field_tile_7WS.tif' (original extent: (234382.59099838723, 902132.4833440109, 234642.58635222574, 902532.4833440109)).
+Connecting to database
+	->/tmp/URock_2025-12-21T164742728937fc-47bf-4e90-b5a1-a2366e08fad9/myDbH2
+/storage/home/hcoda1/4/hyu483/qgis_332/profiles/default/python/plugins/processing_umep/functions/URock/h2gis-standalone/h2gis-dist-2.2.3.jar
+Connected!
+
+Spatial functions added!
+
+Load input data
+Load table 'build_pre_srid_20251221164748'
+Load table 'veg_pre_srid_20251221164748'
+Creates blocks and stacked blocks
+Rotates geometries from 45.0 degrees
+Identify block base height and block cavity base
+Calculates obstacle properties
+Calculates zone properties
+Initializes upwind facades
+Update upwind facades base height
+Initializes downwind facades
+Calculates study area properties
+Roughness zone properties are:
+
+                                 - z0: 3.0622464947835173
+                                 - d: 14.448285895930283
+                                 - Hr: 20.414976631890116
+                                 - H_ob_max: 47
+                                 - lambda_f: 0.1720849423374099
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates displacement zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates cavity and wake zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates street canyon zones
+Rotates geometries from -45.0 degrees
+Creates rooftop zones (perpendicular and corner)
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates built-up and open vegetation zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Identify the buildings concerned by the impacted zone chosen by the user
+Creates the grid of points
+Affects each grid point to a building Rockle zone and calculates needed 
+          variables for 3D wind speed
+Affects each grid point to a vegetation Rockle zone and calculates 
+          needed variables for 3D wind speed
+Remove some of the Röckle zone points
+Creates backward zones
+Calculates the 3D wind speed factor value for each point of each BUILDING zone
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Calculates the 3D wind speed factor value for each point of each VEGETATION zone
+Rotates geometries from -45.0 degrees
+Deals with superimposition (keeps only 1 value per 3D point)
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Rotates geometries from -45.0 degrees
+Identify grid points intersecting buildings
+Set the initial 3D wind speed field
+Time spent for wind speed initialization: 72.8060953617096 s
+Shape: (200, 258, 28) - Nb cells: 1444800
+Start to apply the wind solver
+Iteration 1 (max 500)
+   eps = 0.725505 >= 0.0001
+Iteration 2 (max 500)
+   eps = 0.440911 >= 0.0001
+Iteration 3 (max 500)
+   eps = 0.329902 >= 0.0001
+Iteration 4 (max 500)
+   eps = 0.263079 >= 0.0001
+Iteration 5 (max 500)
+   eps = 0.218209 >= 0.0001
+Iteration 6 (max 500)
+   eps = 0.185508 >= 0.0001
+Iteration 7 (max 500)
+   eps = 0.162747 >= 0.0001
+Iteration 8 (max 500)
+   eps = 0.144283 >= 0.0001
+Iteration 9 (max 500)
+   eps = 0.129404 >= 0.0001
+Iteration 10 (max 500)
+   eps = 0.117173 >= 0.0001
+Iteration 11 (max 500)
+   eps = 0.105975 >= 0.0001
+Iteration 12 (max 500)
+   eps = 0.094983 >= 0.0001
+Iteration 13 (max 500)
+   eps = 0.085684 >= 0.0001
+Iteration 14 (max 500)
+   eps = 0.078043 >= 0.0001
+Iteration 15 (max 500)
+   eps = 0.071709 >= 0.0001
+Iteration 16 (max 500)
+   eps = 0.065822 >= 0.0001
+Iteration 17 (max 500)
+   eps = 0.060368 >= 0.0001
+Iteration 18 (max 500)
+   eps = 0.056247 >= 0.0001
+Iteration 19 (max 500)
+   eps = 0.052601 >= 0.0001
+Iteration 20 (max 500)
+   eps = 0.04941 >= 0.0001
+Iteration 21 (max 500)
+   eps = 0.046671 >= 0.0001
+Iteration 22 (max 500)
+   eps = 0.044386 >= 0.0001
+Iteration 23 (max 500)
+   eps = 0.042409 >= 0.0001
+Iteration 24 (max 500)
+   eps = 0.040523 >= 0.0001
+Iteration 25 (max 500)
+   eps = 0.038857 >= 0.0001
+Iteration 26 (max 500)
+   eps = 0.037955 >= 0.0001
+Iteration 27 (max 500)
+   eps = 0.038417 >= 0.0001
+Iteration 28 (max 500)
+   eps = 0.035816 >= 0.0001
+Iteration 29 (max 500)
+   eps = 0.034727 >= 0.0001
+Iteration 30 (max 500)
+   eps = 0.033963 >= 0.0001
+Iteration 31 (max 500)
+   eps = 0.033322 >= 0.0001
+Iteration 32 (max 500)
+   eps = 0.032711 >= 0.0001
+Iteration 33 (max 500)
+   eps = 0.032107 >= 0.0001
+Iteration 34 (max 500)
+   eps = 0.031481 >= 0.0001
+Iteration 35 (max 500)
+   eps = 0.030908 >= 0.0001
+Iteration 36 (max 500)
+   eps = 0.03043 >= 0.0001
+Iteration 37 (max 500)
+   eps = 0.029946 >= 0.0001
+Iteration 38 (max 500)
+   eps = 0.029602 >= 0.0001
+Iteration 39 (max 500)
+   eps = 0.029375 >= 0.0001
+Iteration 40 (max 500)
+   eps = 0.029065 >= 0.0001
+Iteration 41 (max 500)
+   eps = 0.028759 >= 0.0001
+Iteration 42 (max 500)
+   eps = 0.02843 >= 0.0001
+Iteration 43 (max 500)
+   eps = 0.028082 >= 0.0001
+Iteration 44 (max 500)
+   eps = 0.027615 >= 0.0001
+Iteration 45 (max 500)
+   eps = 0.027054 >= 0.0001
+Iteration 46 (max 500)
+   eps = 0.026379 >= 0.0001
+Iteration 47 (max 500)
+   eps = 0.025708 >= 0.0001
+Iteration 48 (max 500)
+   eps = 0.025017 >= 0.0001
+Iteration 49 (max 500)
+   eps = 0.024403 >= 0.0001
+Iteration 50 (max 500)
+   eps = 0.023864 >= 0.0001
+Iteration 51 (max 500)
+   eps = 0.023342 >= 0.0001
+Iteration 52 (max 500)
+   eps = 0.022825 >= 0.0001
+Iteration 53 (max 500)
+   eps = 0.022302 >= 0.0001
+Iteration 54 (max 500)
+   eps = 0.021796 >= 0.0001
+Iteration 55 (max 500)
+   eps = 0.021344 >= 0.0001
+Iteration 56 (max 500)
+   eps = 0.020947 >= 0.0001
+Iteration 57 (max 500)
+   eps = 0.02056 >= 0.0001
+Iteration 58 (max 500)
+   eps = 0.020219 >= 0.0001
+Iteration 59 (max 500)
+   eps = 0.019821 >= 0.0001
+Iteration 60 (max 500)
+   eps = 0.019482 >= 0.0001
+Iteration 61 (max 500)
+   eps = 0.019218 >= 0.0001
+Iteration 62 (max 500)
+   eps = 0.018943 >= 0.0001
+Iteration 63 (max 500)
+   eps = 0.018672 >= 0.0001
+Iteration 64 (max 500)
+   eps = 0.018382 >= 0.0001
+Iteration 65 (max 500)
+   eps = 0.018099 >= 0.0001
+Iteration 66 (max 500)
+   eps = 0.0178 >= 0.0001
+Iteration 67 (max 500)
+   eps = 0.017505 >= 0.0001
+Iteration 68 (max 500)
+   eps = 0.017181 >= 0.0001
+Iteration 69 (max 500)
+   eps = 0.016896 >= 0.0001
+Iteration 70 (max 500)
+   eps = 0.016632 >= 0.0001
+Iteration 71 (max 500)
+   eps = 0.016329 >= 0.0001
+Iteration 72 (max 500)
+   eps = 0.015997 >= 0.0001
+Iteration 73 (max 500)
+   eps = 0.01563 >= 0.0001
+Iteration 74 (max 500)
+   eps = 0.015275 >= 0.0001
+Iteration 75 (max 500)
+   eps = 0.014917 >= 0.0001
+Iteration 76 (max 500)
+   eps = 0.014532 >= 0.0001
+Iteration 77 (max 500)
+   eps = 0.01416 >= 0.0001
+Iteration 78 (max 500)
+   eps = 0.01381 >= 0.0001
+Iteration 79 (max 500)
+   eps = 0.013449 >= 0.0001
+Iteration 80 (max 500)
+   eps = 0.013119 >= 0.0001
+Iteration 81 (max 500)
+   eps = 0.012833 >= 0.0001
+Iteration 82 (max 500)
+   eps = 0.012539 >= 0.0001
+Iteration 83 (max 500)
+   eps = 0.012254 >= 0.0001
+Iteration 84 (max 500)
+   eps = 0.011991 >= 0.0001
+Iteration 85 (max 500)
+   eps = 0.011773 >= 0.0001
+Iteration 86 (max 500)
+   eps = 0.011571 >= 0.0001
+Iteration 87 (max 500)
+   eps = 0.011312 >= 0.0001
+Iteration 88 (max 500)
+   eps = 0.011099 >= 0.0001
+Iteration 89 (max 500)
+   eps = 0.010917 >= 0.0001
+Iteration 90 (max 500)
+   eps = 0.010716 >= 0.0001
+Iteration 91 (max 500)
+   eps = 0.010532 >= 0.0001
+Iteration 92 (max 500)
+   eps = 0.01033 >= 0.0001
+Iteration 93 (max 500)
+   eps = 0.01012 >= 0.0001
+Iteration 94 (max 500)
+   eps = 0.009907 >= 0.0001
+Iteration 95 (max 500)
+   eps = 0.009707 >= 0.0001
+Iteration 96 (max 500)
+   eps = 0.009531 >= 0.0001
+Iteration 97 (max 500)
+   eps = 0.009372 >= 0.0001
+Iteration 98 (max 500)
+   eps = 0.009188 >= 0.0001
+Iteration 99 (max 500)
+   eps = 0.009009 >= 0.0001
+Iteration 100 (max 500)
+   eps = 0.008853 >= 0.0001
+Iteration 101 (max 500)
+   eps = 0.008704 >= 0.0001
+Iteration 102 (max 500)
+   eps = 0.008574 >= 0.0001
+Iteration 103 (max 500)
+   eps = 0.008418 >= 0.0001
+Iteration 104 (max 500)
+   eps = 0.008293 >= 0.0001
+Iteration 105 (max 500)
+   eps = 0.008133 >= 0.0001
+Iteration 106 (max 500)
+   eps = 0.007953 >= 0.0001
+Iteration 107 (max 500)
+   eps = 0.007776 >= 0.0001
+Iteration 108 (max 500)
+   eps = 0.007647 >= 0.0001
+Iteration 109 (max 500)
+   eps = 0.007554 >= 0.0001
+Iteration 110 (max 500)
+   eps = 0.007444 >= 0.0001
+Iteration 111 (max 500)
+   eps = 0.007316 >= 0.0001
+Iteration 112 (max 500)
+   eps = 0.007192 >= 0.0001
+Iteration 113 (max 500)
+   eps = 0.007056 >= 0.0001
+Iteration 114 (max 500)
+   eps = 0.006895 >= 0.0001
+Iteration 115 (max 500)
+   eps = 0.006732 >= 0.0001
+Iteration 116 (max 500)
+   eps = 0.006585 >= 0.0001
+Iteration 117 (max 500)
+   eps = 0.006495 >= 0.0001
+Iteration 118 (max 500)
+   eps = 0.006383 >= 0.0001
+Iteration 119 (max 500)
+   eps = 0.00625 >= 0.0001
+Iteration 120 (max 500)
+   eps = 0.006098 >= 0.0001
+Iteration 121 (max 500)
+   eps = 0.005972 >= 0.0001
+Iteration 122 (max 500)
+   eps = 0.005838 >= 0.0001
+Iteration 123 (max 500)
+   eps = 0.005698 >= 0.0001
+Iteration 124 (max 500)
+   eps = 0.005584 >= 0.0001
+Iteration 125 (max 500)
+   eps = 0.00546 >= 0.0001
+Iteration 126 (max 500)
+   eps = 0.005344 >= 0.0001
+Iteration 127 (max 500)
+   eps = 0.005247 >= 0.0001
+Iteration 128 (max 500)
+   eps = 0.005122 >= 0.0001
+Iteration 129 (max 500)
+   eps = 0.005015 >= 0.0001
+Iteration 130 (max 500)
+   eps = 0.004908 >= 0.0001
+Iteration 131 (max 500)
+   eps = 0.004807 >= 0.0001
+Iteration 132 (max 500)
+   eps = 0.004706 >= 0.0001
+Iteration 133 (max 500)
+   eps = 0.004607 >= 0.0001
+Iteration 134 (max 500)
+   eps = 0.00452 >= 0.0001
+Iteration 135 (max 500)
+   eps = 0.004436 >= 0.0001
+Iteration 136 (max 500)
+   eps = 0.004364 >= 0.0001
+Iteration 137 (max 500)
+   eps = 0.004284 >= 0.0001
+Iteration 138 (max 500)
+   eps = 0.004193 >= 0.0001
+Iteration 139 (max 500)
+   eps = 0.004112 >= 0.0001
+Iteration 140 (max 500)
+   eps = 0.004036 >= 0.0001
+Iteration 141 (max 500)
+   eps = 0.00397 >= 0.0001
+Iteration 142 (max 500)
+   eps = 0.003897 >= 0.0001
+Iteration 143 (max 500)
+   eps = 0.00381 >= 0.0001
+Iteration 144 (max 500)
+   eps = 0.003726 >= 0.0001
+Iteration 145 (max 500)
+   eps = 0.003638 >= 0.0001
+Iteration 146 (max 500)
+   eps = 0.00355 >= 0.0001
+Iteration 147 (max 500)
+   eps = 0.003471 >= 0.0001
+Iteration 148 (max 500)
+   eps = 0.003397 >= 0.0001
+Iteration 149 (max 500)
+   eps = 0.003332 >= 0.0001
+Iteration 150 (max 500)
+   eps = 0.003267 >= 0.0001
+Iteration 151 (max 500)
+   eps = 0.003205 >= 0.0001
+Iteration 152 (max 500)
+   eps = 0.003135 >= 0.0001
+Iteration 153 (max 500)
+   eps = 0.00307 >= 0.0001
+Iteration 154 (max 500)
+   eps = 0.003013 >= 0.0001
+Iteration 155 (max 500)
+   eps = 0.00295 >= 0.0001
+Iteration 156 (max 500)
+   eps = 0.002892 >= 0.0001
+Iteration 157 (max 500)
+   eps = 0.002834 >= 0.0001
+Iteration 158 (max 500)
+   eps = 0.002777 >= 0.0001
+Iteration 159 (max 500)
+   eps = 0.002724 >= 0.0001
+Iteration 160 (max 500)
+   eps = 0.00267 >= 0.0001
+Iteration 161 (max 500)
+   eps = 0.002617 >= 0.0001
+Iteration 162 (max 500)
+   eps = 0.002566 >= 0.0001
+Iteration 163 (max 500)
+   eps = 0.002515 >= 0.0001
+Iteration 164 (max 500)
+   eps = 0.002493 >= 0.0001
+Iteration 165 (max 500)
+   eps = 0.00243 >= 0.0001
+Iteration 166 (max 500)
+   eps = 0.002376 >= 0.0001
+Iteration 167 (max 500)
+   eps = 0.002326 >= 0.0001
+Iteration 168 (max 500)
+   eps = 0.00227 >= 0.0001
+Iteration 169 (max 500)
+   eps = 0.002213 >= 0.0001
+Iteration 170 (max 500)
+   eps = 0.002166 >= 0.0001
+Iteration 171 (max 500)
+   eps = 0.002121 >= 0.0001
+Iteration 172 (max 500)
+   eps = 0.002074 >= 0.0001
+Iteration 173 (max 500)
+   eps = 0.002029 >= 0.0001
+Iteration 174 (max 500)
+   eps = 0.001988 >= 0.0001
+Iteration 175 (max 500)
+   eps = 0.001946 >= 0.0001
+Iteration 176 (max 500)
+   eps = 0.001901 >= 0.0001
+Iteration 177 (max 500)
+   eps = 0.001857 >= 0.0001
+Iteration 178 (max 500)
+   eps = 0.001814 >= 0.0001
+Iteration 179 (max 500)
+   eps = 0.001771 >= 0.0001
+Iteration 180 (max 500)
+   eps = 0.001731 >= 0.0001
+Iteration 181 (max 500)
+   eps = 0.001695 >= 0.0001
+Iteration 182 (max 500)
+   eps = 0.001661 >= 0.0001
+Iteration 183 (max 500)
+   eps = 0.001629 >= 0.0001
+Iteration 184 (max 500)
+   eps = 0.001601 >= 0.0001
+Iteration 185 (max 500)
+   eps = 0.001572 >= 0.0001
+Iteration 186 (max 500)
+   eps = 0.001544 >= 0.0001
+Iteration 187 (max 500)
+   eps = 0.001515 >= 0.0001
+Iteration 188 (max 500)
+   eps = 0.001483 >= 0.0001
+Iteration 189 (max 500)
+   eps = 0.001452 >= 0.0001
+Iteration 190 (max 500)
+   eps = 0.001423 >= 0.0001
+Iteration 191 (max 500)
+   eps = 0.001391 >= 0.0001
+Iteration 192 (max 500)
+   eps = 0.001367 >= 0.0001
+Iteration 193 (max 500)
+   eps = 0.00134 >= 0.0001
+Iteration 194 (max 500)
+   eps = 0.001313 >= 0.0001
+Iteration 195 (max 500)
+   eps = 0.001285 >= 0.0001
+Iteration 196 (max 500)
+   eps = 0.001257 >= 0.0001
+Iteration 197 (max 500)
+   eps = 0.001229 >= 0.0001
+Iteration 198 (max 500)
+   eps = 0.001198 >= 0.0001
+Iteration 199 (max 500)
+   eps = 0.001167 >= 0.0001
+Iteration 200 (max 500)
+   eps = 0.001139 >= 0.0001
+Iteration 201 (max 500)
+   eps = 0.001113 >= 0.0001
+Iteration 202 (max 500)
+   eps = 0.001089 >= 0.0001
+Iteration 203 (max 500)
+   eps = 0.001066 >= 0.0001
+Iteration 204 (max 500)
+   eps = 0.001043 >= 0.0001
+Iteration 205 (max 500)
+   eps = 0.001021 >= 0.0001
+Iteration 206 (max 500)
+   eps = 0.000998 >= 0.0001
+Iteration 207 (max 500)
+   eps = 0.000977 >= 0.0001
+Iteration 208 (max 500)
+   eps = 0.000957 >= 0.0001
+Iteration 209 (max 500)
+   eps = 0.000938 >= 0.0001
+Iteration 210 (max 500)
+   eps = 0.00092 >= 0.0001
+Iteration 211 (max 500)
+   eps = 0.000901 >= 0.0001
+Iteration 212 (max 500)
+   eps = 0.000882 >= 0.0001
+Iteration 213 (max 500)
+   eps = 0.000864 >= 0.0001
+Iteration 214 (max 500)
+   eps = 0.000846 >= 0.0001
+Iteration 215 (max 500)
+   eps = 0.000827 >= 0.0001
+Iteration 216 (max 500)
+   eps = 0.00081 >= 0.0001
+Iteration 217 (max 500)
+   eps = 0.000793 >= 0.0001
+Iteration 218 (max 500)
+   eps = 0.000777 >= 0.0001
+Iteration 219 (max 500)
+   eps = 0.00076 >= 0.0001
+Iteration 220 (max 500)
+   eps = 0.000744 >= 0.0001
+Iteration 221 (max 500)
+   eps = 0.000728 >= 0.0001
+Iteration 222 (max 500)
+   eps = 0.000712 >= 0.0001
+Iteration 223 (max 500)
+   eps = 0.000695 >= 0.0001
+Iteration 224 (max 500)
+   eps = 0.000677 >= 0.0001
+Iteration 225 (max 500)
+   eps = 0.000662 >= 0.0001
+Iteration 226 (max 500)
+   eps = 0.000648 >= 0.0001
+Iteration 227 (max 500)
+   eps = 0.000635 >= 0.0001
+Iteration 228 (max 500)
+   eps = 0.000622 >= 0.0001
+Iteration 229 (max 500)
+   eps = 0.000608 >= 0.0001
+Iteration 230 (max 500)
+   eps = 0.000594 >= 0.0001
+Iteration 231 (max 500)
+   eps = 0.00058 >= 0.0001
+Iteration 232 (max 500)
+   eps = 0.000566 >= 0.0001
+Iteration 233 (max 500)
+   eps = 0.000552 >= 0.0001
+Iteration 234 (max 500)
+   eps = 0.000539 >= 0.0001
+Iteration 235 (max 500)
+   eps = 0.000527 >= 0.0001
+Iteration 236 (max 500)
+   eps = 0.000515 >= 0.0001
+Iteration 237 (max 500)
+   eps = 0.000506 >= 0.0001
+Iteration 238 (max 500)
+   eps = 0.000495 >= 0.0001
+Iteration 239 (max 500)
+   eps = 0.000485 >= 0.0001
+Iteration 240 (max 500)
+   eps = 0.000476 >= 0.0001
+Iteration 241 (max 500)
+   eps = 0.000465 >= 0.0001
+Iteration 242 (max 500)
+   eps = 0.000454 >= 0.0001
+Iteration 243 (max 500)
+   eps = 0.000442 >= 0.0001
+Iteration 244 (max 500)
+   eps = 0.000431 >= 0.0001
+Iteration 245 (max 500)
+   eps = 0.00042 >= 0.0001
+Iteration 246 (max 500)
+   eps = 0.00041 >= 0.0001
+Iteration 247 (max 500)
+   eps = 0.0004 >= 0.0001
+Iteration 248 (max 500)
+   eps = 0.000392 >= 0.0001
+Iteration 249 (max 500)
+   eps = 0.000383 >= 0.0001
+Iteration 250 (max 500)
+   eps = 0.000374 >= 0.0001
+Iteration 251 (max 500)
+   eps = 0.000366 >= 0.0001
+Iteration 252 (max 500)
+   eps = 0.000357 >= 0.0001
+Iteration 253 (max 500)
+   eps = 0.000348 >= 0.0001
+Iteration 254 (max 500)
+   eps = 0.00034 >= 0.0001
+Iteration 255 (max 500)
+   eps = 0.000333 >= 0.0001
+Iteration 256 (max 500)
+   eps = 0.000325 >= 0.0001
+Iteration 257 (max 500)
+   eps = 0.000317 >= 0.0001
+Iteration 258 (max 500)
+   eps = 0.00031 >= 0.0001
+Iteration 259 (max 500)
+   eps = 0.000304 >= 0.0001
+Iteration 260 (max 500)
+   eps = 0.000297 >= 0.0001
+Iteration 261 (max 500)
+   eps = 0.000291 >= 0.0001
+Iteration 262 (max 500)
+   eps = 0.000285 >= 0.0001
+Iteration 263 (max 500)
+   eps = 0.000278 >= 0.0001
+Iteration 264 (max 500)
+   eps = 0.000271 >= 0.0001
+Iteration 265 (max 500)
+   eps = 0.000265 >= 0.0001
+Iteration 266 (max 500)
+   eps = 0.000259 >= 0.0001
+Iteration 267 (max 500)
+   eps = 0.000252 >= 0.0001
+Iteration 268 (max 500)
+   eps = 0.000247 >= 0.0001
+Iteration 269 (max 500)
+   eps = 0.000241 >= 0.0001
+Iteration 270 (max 500)
+   eps = 0.000236 >= 0.0001
+Iteration 271 (max 500)
+   eps = 0.000231 >= 0.0001
+Iteration 272 (max 500)
+   eps = 0.000226 >= 0.0001
+Iteration 273 (max 500)
+   eps = 0.000221 >= 0.0001
+Iteration 274 (max 500)
+   eps = 0.000216 >= 0.0001
+Iteration 275 (max 500)
+   eps = 0.00021 >= 0.0001
+Iteration 276 (max 500)
+   eps = 0.000206 >= 0.0001
+Iteration 277 (max 500)
+   eps = 0.000201 >= 0.0001
+Iteration 278 (max 500)
+   eps = 0.000196 >= 0.0001
+Iteration 279 (max 500)
+   eps = 0.00019 >= 0.0001
+Iteration 280 (max 500)
+   eps = 0.000185 >= 0.0001
+Iteration 281 (max 500)
+   eps = 0.000181 >= 0.0001
+Iteration 282 (max 500)
+   eps = 0.000177 >= 0.0001
+Iteration 283 (max 500)
+   eps = 0.000173 >= 0.0001
+Iteration 284 (max 500)
+   eps = 0.000168 >= 0.0001
+Iteration 285 (max 500)
+   eps = 0.000164 >= 0.0001
+Iteration 286 (max 500)
+   eps = 0.000161 >= 0.0001
+Iteration 287 (max 500)
+   eps = 0.000157 >= 0.0001
+Iteration 288 (max 500)
+   eps = 0.000153 >= 0.0001
+Iteration 289 (max 500)
+   eps = 0.00015 >= 0.0001
+Iteration 290 (max 500)
+   eps = 0.000147 >= 0.0001
+Iteration 291 (max 500)
+   eps = 0.000143 >= 0.0001
+Iteration 292 (max 500)
+   eps = 0.000139 >= 0.0001
+Iteration 293 (max 500)
+   eps = 0.000135 >= 0.0001
+Iteration 294 (max 500)
+   eps = 0.000132 >= 0.0001
+Iteration 295 (max 500)
+   eps = 0.000129 >= 0.0001
+Iteration 296 (max 500)
+   eps = 0.000126 >= 0.0001
+Iteration 297 (max 500)
+   eps = 0.000123 >= 0.0001
+Iteration 298 (max 500)
+   eps = 0.00012 >= 0.0001
+Iteration 299 (max 500)
+   eps = 0.000117 >= 0.0001
+Iteration 300 (max 500)
+   eps = 0.000114 >= 0.0001
+Iteration 301 (max 500)
+   eps = 0.000111 >= 0.0001
+Iteration 302 (max 500)
+   eps = 0.000108 >= 0.0001
+Iteration 303 (max 500)
+   eps = 0.000105 >= 0.0001
+Iteration 304 (max 500)
+   eps = 0.000102 >= 0.0001
+Iteration 305 (max 500)
+Time spent by the wind speed solver: 27.291971921920776 s
+Rotates geometries from -45.0 degrees
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Process 3857101: Successfully ran URock for tile output 'wind_field_raw_tile_0'.
+Process 3857101: Elapsed time for URock ('wind_field_raw_tile_0'): 128.64 seconds.
+[Master] Process 3857101 - Tile 0: Finished processing.
+[Master] 3857101: exit signal
+Info: Debuffered '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_0_urock_raw_outputs/z1_5/wind_field_raw_tile_0WS.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output/urock_wind_field_tile_0WS.tif' (original extent: (233582.59099838723, 901732.4833440109, 233982.59099838723, 902132.4833440109)).
+Connecting to database
+	->/tmp/URock_2025-12-21T164743673a055b-acf7-4249-84ff-ad0d1394ec79/myDbH2
+/storage/home/hcoda1/4/hyu483/qgis_332/profiles/default/python/plugins/processing_umep/functions/URock/h2gis-standalone/h2gis-dist-2.2.3.jar
+Connected!
+
+Spatial functions added!
+
+Load input data
+Load table 'build_pre_srid_20251221164748'
+Load table 'veg_pre_srid_20251221164748'
+Creates blocks and stacked blocks
+Rotates geometries from 45.0 degrees
+Identify block base height and block cavity base
+Calculates obstacle properties
+Calculates zone properties
+Initializes upwind facades
+Update upwind facades base height
+Initializes downwind facades
+Calculates study area properties
+Roughness zone properties are:
+
+                                 - z0: 2.6573405131974814
+                                 - d: 12.744063874189218
+                                 - Hr: 17.715603421316544
+                                 - H_ob_max: 136
+                                 - lambda_f: 0.20534128322715126
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates displacement zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates cavity and wake zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates street canyon zones
+Rotates geometries from -45.0 degrees
+Creates rooftop zones (perpendicular and corner)
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Creates built-up and open vegetation zones
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Identify the buildings concerned by the impacted zone chosen by the user
+Creates the grid of points
+Affects each grid point to a building Rockle zone and calculates needed 
+          variables for 3D wind speed
+Affects each grid point to a vegetation Rockle zone and calculates 
+          needed variables for 3D wind speed
+Remove some of the Röckle zone points
+Creates backward zones
+Calculates the 3D wind speed factor value for each point of each BUILDING zone
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Calculates the 3D wind speed factor value for each point of each VEGETATION zone
+Rotates geometries from -45.0 degrees
+Deals with superimposition (keeps only 1 value per 3D point)
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Deals with superimposition (keeps only 1 value per 3D point)
+Identify upstreamer points in TEMPO_WEIGHTING table
+Identify upstreamer points in TEMPO_PRIORITIES table
+Identify upstreamer points in TEMPO_PRIORITIES_WEIGHT table
+Rotates geometries from -45.0 degrees
+Identify grid points intersecting buildings
+Set the initial 3D wind speed field
+Time spent for wind speed initialization: 77.10738587379456 s
+Shape: (206, 267, 60) - Nb cells: 3300120
+Start to apply the wind solver
+Iteration 1 (max 500)
+   eps = 0.766645 >= 0.0001
+Iteration 2 (max 500)
+   eps = 0.446991 >= 0.0001
+Iteration 3 (max 500)
+   eps = 0.322095 >= 0.0001
+Iteration 4 (max 500)
+   eps = 0.254636 >= 0.0001
+Iteration 5 (max 500)
+   eps = 0.208724 >= 0.0001
+Iteration 6 (max 500)
+   eps = 0.177495 >= 0.0001
+Iteration 7 (max 500)
+   eps = 0.153891 >= 0.0001
+Iteration 8 (max 500)
+   eps = 0.135516 >= 0.0001
+Iteration 9 (max 500)
+   eps = 0.12096 >= 0.0001
+Iteration 10 (max 500)
+   eps = 0.108504 >= 0.0001
+Iteration 11 (max 500)
+   eps = 0.098118 >= 0.0001
+Iteration 12 (max 500)
+   eps = 0.089399 >= 0.0001
+Iteration 13 (max 500)
+   eps = 0.082123 >= 0.0001
+Iteration 14 (max 500)
+   eps = 0.075689 >= 0.0001
+Iteration 15 (max 500)
+   eps = 0.070068 >= 0.0001
+Iteration 16 (max 500)
+   eps = 0.065267 >= 0.0001
+Iteration 17 (max 500)
+   eps = 0.061029 >= 0.0001
+Iteration 18 (max 500)
+   eps = 0.057195 >= 0.0001
+Iteration 19 (max 500)
+   eps = 0.053776 >= 0.0001
+Iteration 20 (max 500)
+   eps = 0.050601 >= 0.0001
+Iteration 21 (max 500)
+   eps = 0.047767 >= 0.0001
+Iteration 22 (max 500)
+   eps = 0.045297 >= 0.0001
+Iteration 23 (max 500)
+   eps = 0.043038 >= 0.0001
+Iteration 24 (max 500)
+   eps = 0.040969 >= 0.0001
+Iteration 25 (max 500)
+   eps = 0.039027 >= 0.0001
+Iteration 26 (max 500)
+   eps = 0.037224 >= 0.0001
+Iteration 27 (max 500)
+   eps = 0.03553 >= 0.0001
+Iteration 28 (max 500)
+   eps = 0.034013 >= 0.0001
+Iteration 29 (max 500)
+   eps = 0.032569 >= 0.0001
+Iteration 30 (max 500)
+   eps = 0.031205 >= 0.0001
+Iteration 31 (max 500)
+   eps = 0.029896 >= 0.0001
+Iteration 32 (max 500)
+   eps = 0.028707 >= 0.0001
+Iteration 33 (max 500)
+   eps = 0.027585 >= 0.0001
+Iteration 34 (max 500)
+   eps = 0.026565 >= 0.0001
+Iteration 35 (max 500)
+   eps = 0.025618 >= 0.0001
+Iteration 36 (max 500)
+   eps = 0.024748 >= 0.0001
+Iteration 37 (max 500)
+   eps = 0.023939 >= 0.0001
+Iteration 38 (max 500)
+   eps = 0.023164 >= 0.0001
+Iteration 39 (max 500)
+   eps = 0.022445 >= 0.0001
+Iteration 40 (max 500)
+   eps = 0.021748 >= 0.0001
+Iteration 41 (max 500)
+   eps = 0.02107 >= 0.0001
+Iteration 42 (max 500)
+   eps = 0.020436 >= 0.0001
+Iteration 43 (max 500)
+   eps = 0.019819 >= 0.0001
+Iteration 44 (max 500)
+   eps = 0.019235 >= 0.0001
+Iteration 45 (max 500)
+   eps = 0.018686 >= 0.0001
+Iteration 46 (max 500)
+   eps = 0.018147 >= 0.0001
+Iteration 47 (max 500)
+   eps = 0.017614 >= 0.0001
+Iteration 48 (max 500)
+   eps = 0.017136 >= 0.0001
+Iteration 49 (max 500)
+   eps = 0.01663 >= 0.0001
+Iteration 50 (max 500)
+   eps = 0.016214 >= 0.0001
+Iteration 51 (max 500)
+   eps = 0.015759 >= 0.0001
+Iteration 52 (max 500)
+   eps = 0.015332 >= 0.0001
+Iteration 53 (max 500)
+   eps = 0.01493 >= 0.0001
+Iteration 54 (max 500)
+   eps = 0.014548 >= 0.0001
+Iteration 55 (max 500)
+   eps = 0.014153 >= 0.0001
+Iteration 56 (max 500)
+   eps = 0.013759 >= 0.0001
+Iteration 57 (max 500)
+   eps = 0.013372 >= 0.0001
+Iteration 58 (max 500)
+   eps = 0.013141 >= 0.0001
+Iteration 59 (max 500)
+   eps = 0.012674 >= 0.0001
+Iteration 60 (max 500)
+   eps = 0.012364 >= 0.0001
+Iteration 61 (max 500)
+   eps = 0.012051 >= 0.0001
+Iteration 62 (max 500)
+   eps = 0.011759 >= 0.0001
+Iteration 63 (max 500)
+   eps = 0.011477 >= 0.0001
+Iteration 64 (max 500)
+   eps = 0.011199 >= 0.0001
+Iteration 65 (max 500)
+   eps = 0.010932 >= 0.0001
+Iteration 66 (max 500)
+   eps = 0.010671 >= 0.0001
+Iteration 67 (max 500)
+   eps = 0.010413 >= 0.0001
+Iteration 68 (max 500)
+   eps = 0.010167 >= 0.0001
+Iteration 69 (max 500)
+   eps = 0.009935 >= 0.0001
+Iteration 70 (max 500)
+   eps = 0.009708 >= 0.0001
+Iteration 71 (max 500)
+   eps = 0.009483 >= 0.0001
+Iteration 72 (max 500)
+   eps = 0.009259 >= 0.0001
+Iteration 73 (max 500)
+   eps = 0.009045 >= 0.0001
+Iteration 74 (max 500)
+   eps = 0.008836 >= 0.0001
+Iteration 75 (max 500)
+   eps = 0.008625 >= 0.0001
+Iteration 76 (max 500)
+   eps = 0.008415 >= 0.0001
+Iteration 77 (max 500)
+   eps = 0.008209 >= 0.0001
+Iteration 78 (max 500)
+   eps = 0.00801 >= 0.0001
+Iteration 79 (max 500)
+   eps = 0.007814 >= 0.0001
+Iteration 80 (max 500)
+   eps = 0.007626 >= 0.0001
+Iteration 81 (max 500)
+   eps = 0.007446 >= 0.0001
+Iteration 82 (max 500)
+   eps = 0.007279 >= 0.0001
+Iteration 83 (max 500)
+   eps = 0.007116 >= 0.0001
+Iteration 84 (max 500)
+   eps = 0.006957 >= 0.0001
+Iteration 85 (max 500)
+   eps = 0.006804 >= 0.0001
+Iteration 86 (max 500)
+   eps = 0.006656 >= 0.0001
+Iteration 87 (max 500)
+   eps = 0.006516 >= 0.0001
+Iteration 88 (max 500)
+   eps = 0.006382 >= 0.0001
+Iteration 89 (max 500)
+   eps = 0.006249 >= 0.0001
+Iteration 90 (max 500)
+   eps = 0.00612 >= 0.0001
+Iteration 91 (max 500)
+   eps = 0.005995 >= 0.0001
+Iteration 92 (max 500)
+   eps = 0.005879 >= 0.0001
+Iteration 93 (max 500)
+   eps = 0.005765 >= 0.0001
+Iteration 94 (max 500)
+   eps = 0.005652 >= 0.0001
+Iteration 95 (max 500)
+   eps = 0.005541 >= 0.0001
+Iteration 96 (max 500)
+   eps = 0.005433 >= 0.0001
+Iteration 97 (max 500)
+   eps = 0.005328 >= 0.0001
+Iteration 98 (max 500)
+   eps = 0.005228 >= 0.0001
+Iteration 99 (max 500)
+   eps = 0.005127 >= 0.0001
+Iteration 100 (max 500)
+   eps = 0.005027 >= 0.0001
+Iteration 101 (max 500)
+   eps = 0.004931 >= 0.0001
+Iteration 102 (max 500)
+   eps = 0.004836 >= 0.0001
+Iteration 103 (max 500)
+   eps = 0.004744 >= 0.0001
+Iteration 104 (max 500)
+   eps = 0.004651 >= 0.0001
+Iteration 105 (max 500)
+   eps = 0.004559 >= 0.0001
+Iteration 106 (max 500)
+   eps = 0.004467 >= 0.0001
+Iteration 107 (max 500)
+   eps = 0.004379 >= 0.0001
+Iteration 108 (max 500)
+   eps = 0.004295 >= 0.0001
+Iteration 109 (max 500)
+   eps = 0.004208 >= 0.0001
+Iteration 110 (max 500)
+   eps = 0.004127 >= 0.0001
+Iteration 111 (max 500)
+   eps = 0.004047 >= 0.0001
+Iteration 112 (max 500)
+   eps = 0.003971 >= 0.0001
+Iteration 113 (max 500)
+   eps = 0.0039 >= 0.0001
+Iteration 114 (max 500)
+   eps = 0.003831 >= 0.0001
+Iteration 115 (max 500)
+   eps = 0.003763 >= 0.0001
+Iteration 116 (max 500)
+   eps = 0.003695 >= 0.0001
+Iteration 117 (max 500)
+   eps = 0.003631 >= 0.0001
+Iteration 118 (max 500)
+   eps = 0.003568 >= 0.0001
+Iteration 119 (max 500)
+   eps = 0.003506 >= 0.0001
+Iteration 120 (max 500)
+   eps = 0.003445 >= 0.0001
+Iteration 121 (max 500)
+   eps = 0.003388 >= 0.0001
+Iteration 122 (max 500)
+   eps = 0.003332 >= 0.0001
+Iteration 123 (max 500)
+   eps = 0.003278 >= 0.0001
+Iteration 124 (max 500)
+   eps = 0.003222 >= 0.0001
+Iteration 125 (max 500)
+   eps = 0.003165 >= 0.0001
+Iteration 126 (max 500)
+   eps = 0.00311 >= 0.0001
+Iteration 127 (max 500)
+   eps = 0.003056 >= 0.0001
+Iteration 128 (max 500)
+   eps = 0.003003 >= 0.0001
+Iteration 129 (max 500)
+   eps = 0.002948 >= 0.0001
+Iteration 130 (max 500)
+   eps = 0.00289 >= 0.0001
+Iteration 131 (max 500)
+   eps = 0.002834 >= 0.0001
+Iteration 132 (max 500)
+   eps = 0.002779 >= 0.0001
+Iteration 133 (max 500)
+   eps = 0.002726 >= 0.0001
+Iteration 134 (max 500)
+   eps = 0.00267 >= 0.0001
+Iteration 135 (max 500)
+   eps = 0.002617 >= 0.0001
+Iteration 136 (max 500)
+   eps = 0.002565 >= 0.0001
+Iteration 137 (max 500)
+   eps = 0.002518 >= 0.0001
+Iteration 138 (max 500)
+   eps = 0.002476 >= 0.0001
+Iteration 139 (max 500)
+   eps = 0.002435 >= 0.0001
+Iteration 140 (max 500)
+   eps = 0.002391 >= 0.0001
+Iteration 141 (max 500)
+   eps = 0.002347 >= 0.0001
+Iteration 142 (max 500)
+   eps = 0.002303 >= 0.0001
+Iteration 143 (max 500)
+   eps = 0.002263 >= 0.0001
+Iteration 144 (max 500)
+   eps = 0.002223 >= 0.0001
+Iteration 145 (max 500)
+   eps = 0.002183 >= 0.0001
+Iteration 146 (max 500)
+   eps = 0.002143 >= 0.0001
+Iteration 147 (max 500)
+   eps = 0.002106 >= 0.0001
+Iteration 148 (max 500)
+   eps = 0.002067 >= 0.0001
+Iteration 149 (max 500)
+   eps = 0.002028 >= 0.0001
+Iteration 150 (max 500)
+   eps = 0.00199 >= 0.0001
+Iteration 151 (max 500)
+   eps = 0.001953 >= 0.0001
+Iteration 152 (max 500)
+   eps = 0.001917 >= 0.0001
+Iteration 153 (max 500)
+   eps = 0.001881 >= 0.0001
+Iteration 154 (max 500)
+   eps = 0.001846 >= 0.0001
+Iteration 155 (max 500)
+   eps = 0.001812 >= 0.0001
+Iteration 156 (max 500)
+   eps = 0.001778 >= 0.0001
+Iteration 157 (max 500)
+   eps = 0.001743 >= 0.0001
+Iteration 158 (max 500)
+   eps = 0.001709 >= 0.0001
+Iteration 159 (max 500)
+   eps = 0.001674 >= 0.0001
+Iteration 160 (max 500)
+   eps = 0.001641 >= 0.0001
+Iteration 161 (max 500)
+   eps = 0.001606 >= 0.0001
+Iteration 162 (max 500)
+   eps = 0.001572 >= 0.0001
+Iteration 163 (max 500)
+   eps = 0.00154 >= 0.0001
+Iteration 164 (max 500)
+   eps = 0.001507 >= 0.0001
+Iteration 165 (max 500)
+   eps = 0.001476 >= 0.0001
+Iteration 166 (max 500)
+   eps = 0.001446 >= 0.0001
+Iteration 167 (max 500)
+   eps = 0.001417 >= 0.0001
+Iteration 168 (max 500)
+   eps = 0.00139 >= 0.0001
+Iteration 169 (max 500)
+   eps = 0.001362 >= 0.0001
+Iteration 170 (max 500)
+   eps = 0.001334 >= 0.0001
+Iteration 171 (max 500)
+   eps = 0.001307 >= 0.0001
+Iteration 172 (max 500)
+   eps = 0.00128 >= 0.0001
+Iteration 173 (max 500)
+   eps = 0.001254 >= 0.0001
+Iteration 174 (max 500)
+   eps = 0.001228 >= 0.0001
+Iteration 175 (max 500)
+   eps = 0.001203 >= 0.0001
+Iteration 176 (max 500)
+   eps = 0.001185 >= 0.0001
+Iteration 177 (max 500)
+   eps = 0.001161 >= 0.0001
+Iteration 178 (max 500)
+   eps = 0.001137 >= 0.0001
+Iteration 179 (max 500)
+   eps = 0.001114 >= 0.0001
+Iteration 180 (max 500)
+   eps = 0.001092 >= 0.0001
+Iteration 181 (max 500)
+   eps = 0.001071 >= 0.0001
+Iteration 182 (max 500)
+   eps = 0.001051 >= 0.0001
+Iteration 183 (max 500)
+   eps = 0.00103 >= 0.0001
+Iteration 184 (max 500)
+   eps = 0.001008 >= 0.0001
+Iteration 185 (max 500)
+   eps = 0.000987 >= 0.0001
+Iteration 186 (max 500)
+   eps = 0.000966 >= 0.0001
+Iteration 187 (max 500)
+   eps = 0.000946 >= 0.0001
+Iteration 188 (max 500)
+   eps = 0.000927 >= 0.0001
+Iteration 189 (max 500)
+   eps = 0.00091 >= 0.0001
+Iteration 190 (max 500)
+   eps = 0.000891 >= 0.0001
+Iteration 191 (max 500)
+   eps = 0.000872 >= 0.0001
+Iteration 192 (max 500)
+   eps = 0.000854 >= 0.0001
+Iteration 193 (max 500)
+   eps = 0.000837 >= 0.0001
+Iteration 194 (max 500)
+   eps = 0.00082 >= 0.0001
+Iteration 195 (max 500)
+   eps = 0.000802 >= 0.0001
+Iteration 196 (max 500)
+   eps = 0.000785 >= 0.0001
+Iteration 197 (max 500)
+   eps = 0.000769 >= 0.0001
+Iteration 198 (max 500)
+   eps = 0.000753 >= 0.0001
+Iteration 199 (max 500)
+   eps = 0.000736 >= 0.0001
+Iteration 200 (max 500)
+   eps = 0.000721 >= 0.0001
+Iteration 201 (max 500)
+   eps = 0.000706 >= 0.0001
+Iteration 202 (max 500)
+   eps = 0.000692 >= 0.0001
+Iteration 203 (max 500)
+   eps = 0.000677 >= 0.0001
+Iteration 204 (max 500)
+   eps = 0.000662 >= 0.0001
+Iteration 205 (max 500)
+   eps = 0.000648 >= 0.0001
+Iteration 206 (max 500)
+   eps = 0.000633 >= 0.0001
+Iteration 207 (max 500)
+   eps = 0.00062 >= 0.0001
+Iteration 208 (max 500)
+   eps = 0.000606 >= 0.0001
+Iteration 209 (max 500)
+   eps = 0.000595 >= 0.0001
+Iteration 210 (max 500)
+   eps = 0.000584 >= 0.0001
+Iteration 211 (max 500)
+   eps = 0.000572 >= 0.0001
+Iteration 212 (max 500)
+   eps = 0.00056 >= 0.0001
+Iteration 213 (max 500)
+   eps = 0.000549 >= 0.0001
+Iteration 214 (max 500)
+   eps = 0.000536 >= 0.0001
+Iteration 215 (max 500)
+   eps = 0.000522 >= 0.0001
+Iteration 216 (max 500)
+   eps = 0.000508 >= 0.0001
+Iteration 217 (max 500)
+   eps = 0.000495 >= 0.0001
+Iteration 218 (max 500)
+   eps = 0.000483 >= 0.0001
+Iteration 219 (max 500)
+   eps = 0.000471 >= 0.0001
+Iteration 220 (max 500)
+   eps = 0.00046 >= 0.0001
+Iteration 221 (max 500)
+   eps = 0.000448 >= 0.0001
+Iteration 222 (max 500)
+   eps = 0.000438 >= 0.0001
+Iteration 223 (max 500)
+   eps = 0.000429 >= 0.0001
+Iteration 224 (max 500)
+   eps = 0.000419 >= 0.0001
+Iteration 225 (max 500)
+   eps = 0.00041 >= 0.0001
+Iteration 226 (max 500)
+   eps = 0.000401 >= 0.0001
+Iteration 227 (max 500)
+   eps = 0.000392 >= 0.0001
+Iteration 228 (max 500)
+   eps = 0.000383 >= 0.0001
+Iteration 229 (max 500)
+   eps = 0.000375 >= 0.0001
+Iteration 230 (max 500)
+   eps = 0.000368 >= 0.0001
+Iteration 231 (max 500)
+   eps = 0.00036 >= 0.0001
+Iteration 232 (max 500)
+   eps = 0.000351 >= 0.0001
+Iteration 233 (max 500)
+   eps = 0.000343 >= 0.0001
+Iteration 234 (max 500)
+   eps = 0.000336 >= 0.0001
+Iteration 235 (max 500)
+   eps = 0.000328 >= 0.0001
+Iteration 236 (max 500)
+   eps = 0.00032 >= 0.0001
+Iteration 237 (max 500)
+   eps = 0.000314 >= 0.0001
+Iteration 238 (max 500)
+   eps = 0.000308 >= 0.0001
+Iteration 239 (max 500)
+   eps = 0.000301 >= 0.0001
+Iteration 240 (max 500)
+   eps = 0.000295 >= 0.0001
+Iteration 241 (max 500)
+   eps = 0.000288 >= 0.0001
+Iteration 242 (max 500)
+   eps = 0.000282 >= 0.0001
+Iteration 243 (max 500)
+   eps = 0.000276 >= 0.0001
+Iteration 244 (max 500)
+   eps = 0.000269 >= 0.0001
+Iteration 245 (max 500)
+   eps = 0.000264 >= 0.0001
+Iteration 246 (max 500)
+   eps = 0.000259 >= 0.0001
+Iteration 247 (max 500)
+   eps = 0.000253 >= 0.0001
+Iteration 248 (max 500)
+   eps = 0.000247 >= 0.0001
+Iteration 249 (max 500)
+   eps = 0.000242 >= 0.0001
+Iteration 250 (max 500)
+   eps = 0.000236 >= 0.0001
+Iteration 251 (max 500)
+   eps = 0.000231 >= 0.0001
+Iteration 252 (max 500)
+   eps = 0.000226 >= 0.0001
+Iteration 253 (max 500)
+   eps = 0.000221 >= 0.0001
+Iteration 254 (max 500)
+   eps = 0.000216 >= 0.0001
+Iteration 255 (max 500)
+   eps = 0.000212 >= 0.0001
+Iteration 256 (max 500)
+   eps = 0.000207 >= 0.0001
+Iteration 257 (max 500)
+   eps = 0.000202 >= 0.0001
+Iteration 258 (max 500)
+   eps = 0.000198 >= 0.0001
+Iteration 259 (max 500)
+   eps = 0.000194 >= 0.0001
+Iteration 260 (max 500)
+   eps = 0.00019 >= 0.0001
+Iteration 261 (max 500)
+   eps = 0.000186 >= 0.0001
+Iteration 262 (max 500)
+   eps = 0.000182 >= 0.0001
+Iteration 263 (max 500)
+   eps = 0.000178 >= 0.0001
+Iteration 264 (max 500)
+   eps = 0.000174 >= 0.0001
+Iteration 265 (max 500)
+   eps = 0.00017 >= 0.0001
+Iteration 266 (max 500)
+   eps = 0.000167 >= 0.0001
+Iteration 267 (max 500)
+   eps = 0.000164 >= 0.0001
+Iteration 268 (max 500)
+   eps = 0.00016 >= 0.0001
+Iteration 269 (max 500)
+   eps = 0.000157 >= 0.0001
+Iteration 270 (max 500)
+   eps = 0.000154 >= 0.0001
+Iteration 271 (max 500)
+   eps = 0.00015 >= 0.0001
+Iteration 272 (max 500)
+   eps = 0.000147 >= 0.0001
+Iteration 273 (max 500)
+   eps = 0.000143 >= 0.0001
+Iteration 274 (max 500)
+   eps = 0.000139 >= 0.0001
+Iteration 275 (max 500)
+   eps = 0.000136 >= 0.0001
+Iteration 276 (max 500)
+   eps = 0.000133 >= 0.0001
+Iteration 277 (max 500)
+   eps = 0.000129 >= 0.0001
+Iteration 278 (max 500)
+   eps = 0.000126 >= 0.0001
+Iteration 279 (max 500)
+   eps = 0.000123 >= 0.0001
+Iteration 280 (max 500)
+   eps = 0.00012 >= 0.0001
+Iteration 281 (max 500)
+   eps = 0.000117 >= 0.0001
+Iteration 282 (max 500)
+   eps = 0.000114 >= 0.0001
+Iteration 283 (max 500)
+   eps = 0.000113 >= 0.0001
+Iteration 284 (max 500)
+   eps = 0.000111 >= 0.0001
+Iteration 285 (max 500)
+   eps = 0.000108 >= 0.0001
+Iteration 286 (max 500)
+   eps = 0.000105 >= 0.0001
+Iteration 287 (max 500)
+   eps = 0.000102 >= 0.0001
+Iteration 288 (max 500)
+Time spent by the wind speed solver: 58.66435170173645 s
+Rotates geometries from -45.0 degrees
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Interp succeeded!!! for tmp_file
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Rotates geometries from -45.0 degrees
+Process 3857082: Successfully ran URock for tile output 'wind_field_raw_tile_3'.
+Process 3857082: Elapsed time for URock ('wind_field_raw_tile_3'): 165.08 seconds.
+[Master] Process 3857082 - Tile 3: Finished processing.
+[Master] 3857082: exit signal
+Info: Debuffered '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/temp_intermediate_files/tile_3_urock_raw_outputs/z1_5/wind_field_raw_tile_3WS.tif' to '/storage/project/r-rbasu31-0/hyu483/Test_UMEP/UROCK_output_32_spawn/urock_tiled_output/urock_wind_field_tile_3WS.tif' (original extent: (233982.59099838723, 901732.4833440109, 234382.59099838723, 902132.4833440109)).
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/4/hyu483/Desktop/fast-thermal-comfort/08_UMEP/3_UROCK/1_UROCK_spawn_2.py", line 660, in <module>
+    main()
+  File "/storage/home/hcoda1/4/hyu483/Desktop/fast-thermal-comfort/08_UMEP/3_UROCK/1_UROCK_spawn_2.py", line 597, in main
+    msg = result_q.get(timeout=10) 
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/home/hcoda1/4/hyu483/conda_envs/qgis332/lib/python3.11/multiprocessing/queues.py", line 113, in get
+    if not self._poll(timeout):
+           ^^^^^^^^^^^^^^^^^^^
+  File "/storage/home/hcoda1/4/hyu483/conda_envs/qgis332/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/storage/home/hcoda1/4/hyu483/conda_envs/qgis332/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/home/hcoda1/4/hyu483/conda_envs/qgis332/lib/python3.11/multiprocessing/connection.py", line 947, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/home/hcoda1/4/hyu483/conda_envs/qgis332/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000155555359dc1, pid=3857083, tid=3858288
+#
+# JRE version: OpenJDK Runtime Environment (Red_Hat-17.0.16.0.8-1) (17.0.16+8) (build 17.0.16+8-LTS)
+# Java VM: OpenJDK 64-Bit Server VM (Red_Hat-17.0.16.0.8-1) (17.0.16+8-LTS, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libc.so.6+0x159dc1]  __memmove_avx_unaligned+0x11
+#
+# Core dump will be written. Default location: /var/tmp/cores/core.%e.3857083.%t.%h.dump
+#
+# An error report file with more information is saved as:
+# /storage/home/hcoda1/4/hyu483/Desktop/fast-thermal-comfort/08_UMEP/3_UROCK/hs_err_pid3857083.log
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000155555359dc1, pid=3857081, tid=3858284
+#
+# JRE version: OpenJDK Runtime Environment (Red_Hat-17.0.16.0.8-1) (17.0.16+8) (build 17.0.16+8-LTS)
+# Java VM: OpenJDK 64-Bit Server VM (Red_Hat-17.0.16.0.8-1) (17.0.16+8-LTS, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libc.so.6+0x159dc1]  __memmove_avx_unaligned+0x11
+#
+# Core dump will be written. Default location: /var/tmp/cores/core.%e.3857081.%t.%h.dump
+#
+# An error report file with more information is saved as:
+# /storage/home/hcoda1/4/hyu483/Desktop/fast-thermal-comfort/08_UMEP/3_UROCK/hs_err_pid3857081.log
+#
+# If you would like to submit a bug report, please visit:
+#   https://access.redhat.com/support/cases/
+#
+#
+# If you would like to submit a bug report, please visit:
+#   https://access.redhat.com/support/cases/
+#

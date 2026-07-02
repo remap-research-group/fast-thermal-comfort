@@ -1,0 +1,6 @@
+/storage/home/hcoda1/4/hyu483/conda_envs/qgis332/lib/python3.11/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+
+Step 1: Calculating tile extents...
+Full template raster extent: (233582.59099838723, 901732.4833440109, 234642.58635222574, 902792.4786978494)
+Calculated 36 tiles for processing.
